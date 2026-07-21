@@ -1,0 +1,21 @@
+{
+  "name": "curso-playwright-javascript",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test1": "npx playwright test Parametros.spec.js",
+    "test:demo": "playwright test Demo2.spec.js",
+    "test:input": "playwright test Input2.spec.js",
+    "test:radio": "playwright test Radio.spec.js",
+    "test:pom": "playwright test POM_UNO.spec.js POM_DOS.spec.js",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "xlsx": "^0.18.5"
+  }
+}

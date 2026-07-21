@@ -1,0 +1,2615 @@
+Sección 1 introducción
+1. Introducción
+Ok.
+Bienvenidos al nuevo curso de Playground con JavaScript.
+Mi nombre es Rodrigo Villanueva y actualmente pues bueno, ya tengo 13 cursos en la plataforma de Udemy
+y este 12 y 13 uno de esos dos y este sería uno de mis nuevos cursos ya actualmente ya hice el curso
+de Playground con Python y este va a ser el curso perdón de Play con JavaScript.
+Entonces, qué es lo que tenemos en este nuevo curso?
+Nosotros como tal, pues vamos a ir desde cero, vamos a ir con la instalación de Node.js, que es el
+framework que necesitamos para poder correr nuestros aplicativos de el dramaturgo de Microsoft y pues
+bueno, a partir de ahí vamos a estar viendo el código de automatización, haremos páginas demos con
+el framework que trae por default para la automatización de JavaScript.
+Veremos en la introducción en variables tuve un curso de lleno de de JavaScript que está en la parte
+de abajo, por si ustedes no conocen nada ahí pueden tomar el curso.
+Desde ahí vamos a ir haciendo varios demos, muchos demos en los cuales vamos a ir a utilizando Page
+Object Model, crearemos nuestras funciones, manejo de variables, veremos lo que son los expect,
+veremos lo que es como tal, los arces, las validaciones, Crearemos poco a poco nuestras funciones,
+iremos viendo métodos de métodos y soluciones para hacer Exception.
+Haremos un método try catch para ver cómo lo podemos ejecutar.
+Manejaremos combos, manejaremos radiobuttons, manejaremos checkbox.
+En este caso todo lo que hemos visto de acuerdo a nuestros cursos manejaremos paralelización con este
+extraordinario framework.
+Configuraciones del archivo package.json Haremos también una introducción muy fuerte a la paralelización.
+Manejaremos nuestras e haremos todo lo que es intros porque hay manejo de variables y parametrización,
+ya sea por arrays, por embed o por Excel.
+Entonces nosotros haremos toda esta carga de información desde archivos de Excel, desde JSON, desde
+también parámetros o arrays.
+Y también en este nuevo curso también ya introduciré lo que es Git y GitHub, haremos cuentas, les
+enseñaré comandos de Git, los inicios, crear su propia cuenta de Git y GitHub.
+Y esto para que?
+Para hacer integración continua con Jenkins.
+Les enseñaré a manejar lo lo básico de Jenkins.
+Como pueden hacer integración continua y ustedes están viendo aquí en el video cómo hacemos toda la
+carga desde Jenkins y cargamos nuestra información desde GitHub y todo esto desde el dramaturgo.
+Todas estas ventajas nos da y ustedes lo van a poder ver todo en el curso.
+Una de las ventajas que tiene y como vuelvo a repetir, es que ya tiene también incluye todo lo que
+es integra.
+2. Node.Js 2023
+Ok, continuando con este curso de Playground y JavaScript, entonces lo que vamos a hacer es para poder
+nosotros continuar con la instalación y para ir paso a paso tenemos que tener instalado Node en nuestra
+máquina Node.js.
+Si nosotros no tenemos, cómo nos podemos dar cuenta de que tenemos?
+No.
+Bueno, muy sencillo.
+Nos vamos al CMD y le pongo node nada y ya si nos vota no?
+O la versión y no nos bota nada, pues es que no tenemos nada, no?
+Descargar para Windows La actual es está recomendado para la mayoría.
+Siempre váyanse con la.
+Hasta ahorita el 28 de enero de este año del 2023 esa es la que está recomendada.
+Para la que no se vayan con la más nueva.
+Casi siempre utilicen una que esté más atrás.
+Aquí nos dice.
+Yo guardo.
+Una vez que descarga nos vota.
+Y ahí ya le di abrir el archivo.
+Le doy en Next.
+Aquí la verdad es que es un no, no, no hay gran ciencia.
+Fíjense bien la ruta, la ruta en donde está, pero files Notes.
+Damos.
+Siguiente.
+Siguiente.
+Y nos dice Quieres que se instalen las herramientas necesarias automáticamente?
+Como chocolate, scrip, etcétera las que necesitamos cumplir.
+Y acá arriba también algo de módulos de seis ss.
+Vamos a decirle que sí, por si necesitamos chocolate después.
+Entonces le damos en instalar.
+Perdón, Estoy un poco enfermo.
+Y ahí va.
+Le damos en que sí.
+Esperamos un poco a que el instalador recorra y que que cargue lo que tiene que estar.
+Si se dan cuenta yo ahorita cerré mi mi línea de comandos, presione cualquier tecla para continuar.
+Nos está diciendo las instrucciones.
+Está instalando chocolate, por lo que estoy viendo el Power Share.
+Vamos a ver.
+Ahí está instalando chocolate.
+Con el PowerShell y también, en fin, se está instalando una una actualización de Python.
+Yo tengo Python por el curso que ya acabo de hacer con python y ahorita estoy empezando este de playground
+con JavaScript y obviamente nos pide que tengamos la versión de Node no?
+Acuérdense que es un gestor de paquetes.
+Estos paquetes es una maravilla.
+Hoy en día ya utilizar node se pueden hacer maravillas con él y nos sirve para instalaciones masivas,
+por ejemplo con Cypress, Webdriver I o etcétera y obviamente pues va de la mano con el dramaturgo de
+Microsoft llamado Playground.
+Es chistoso que la palabra pre signifique dramaturgo, no?
+Pero bueno, a los señores de Microsoft si les gustó el nombre y la realidad es que estaba viendo,
+estoy actualizándome unos videos nuevos de Chatgpt y todo eso y veo que Microsoft está cambiando totalmente
+su filosofía de trabajo.
+La realidad es que está actualizándose brutalmente.
+Antes era todo el software en contra y y nada libre.
+Y cómo te detengo?
+Y cómo?
+Y la realidad es que ha cambiado muchísimo su mentalidad, no?
+Y Microsoft creo que hoy en día está dando una pues una revolución informática, no?
+Por qué?
+Porque realmente ya lo que están haciendo con, por ejemplo, con Chatgpt y con ese tipo de tecnologías
+de inteligencia artificial, pues la verdad está revolucionando al mundo.
+Vamos a esperar, Le voy a poner pausa para que termine.
+Ok, parece que ya terminó.
+Ya no hay nada.
+Y lo último que nos queda pues es validar.
+Creo que me falta, pero bueno, vamos a validar que nos interesa realmente es.
+Vamos a poner node versión.
+Y esta.
+Y si funciona como la mayoría, podríamos poner aquí help diagonal y nos va dando todas las opciones,
+las herramientas, etcétera, etcétera no?
+Entonces creo que con esto ya queda claro que con eso va a ser suficiente.
+Entonces guardamos y pues bueno, este es un video actualizado de No para la descarga para este año.
+Espero que les esté gustando el curso, cuídense mucho y que Dios los bendiga.
+3. Instalando Visual Stude Code
+Hola, qué tal?
+Continuando con mi curso de Selenium y Python.
+Bueno, aquí lo que vamos a hacer rápidamente es como se instala Visual Studio Code.
+Pongan aquí Visual Studio Code.
+Dale.
+Aquí nos da la interfaz.
+Podemos nosotros instalarlo para diferentes sistemas operativos para Mac, Windows, Linux sale.
+Obviamente él detecta qué tipo de sistema operativo tiene.
+Si es Windows 64, le das aquí.
+Te va a pedir la descarga.
+En nuestra página te dice pues bueno, para empezar.
+Puedes programar aquí nos está dando toda la interfaz.
+Puedes programar desde TypeScript, Node, C, C++, Java, Python, PHP, Go, punto NET, Unity,
+etcétera Sale.
+Y bueno, pues es una pequeña introducción.
+Aquí nos dan todos los lenguajes en lo que podemos programar los primeros pasos si ustedes desean,
+pues aquí pueden ver una intro de los vídeos de las interfaces.
+Los lenguajes, lo que pueden configurar también desde aquí lo pueden ver y ahorita lo que voy a hacer
+pues les copio esta url para que ustedes lo puedan descargar.
+No tiene nada de ciencia.
+Si se van dando cuenta una vez que ustedes lo tengan descargado lo buscan en la carpeta.
+Aquí lo único que hice vean, le di aquí en Mostrar.
+Aquí lo ejecuto.
+Sale ahora lo voy a ejecutar, pero ahorita lo voy a cancelar cuando empiece el mensaje.
+Por qué?
+Porque yo ya tengo incluso.
+Miren, DA Aceptas la licencia?
+Ustedes obviamente le van a dar en aceptar y de aquí en adelante pues es siguiente, siguiente, siguiente
+y siguiente Sale, Nos va a un poquito de.
+En dónde lo quieres instalar?
+En qué parte de tu disco en este caso?
+Pues en el disco duro C o en donde ustedes tengan.
+Si tienen un disco duro particionado, pues es nada más ya siguiente.
+Realmente, eh, no tiene ninguna ciencia instalar Visual Studio Code.
+En el video que vi, bueno en el video que que que viene, ya veo cómo instalar algunos plugins especiales
+para Python y para en este caso también hay algunos para Selenium.
+También pueden poner para Robot Framework.
+Para varios realmente es la misma lógica siempre.
+Así es, así se descarga.
+Entonces como les digo, ya no lo voy a hacer porque pues obviamente ya lo tengo instalado, sale,
+aquí está, ya lo abrí, ahorita se está abriendo y pues bueno, lo utilizo para muchísimas cosas,
+no nada más para el curso de Selenium, lo utilizo para este Catalon, para Cypress, para cualquier
+cosa sale.
+Y recuerden que los plugins están de este lado.
+Aquí, miren, aquí está para catalón los plugins.
+Las extensiones están aquí.
+Y en este caso, bueno, el curso, pues como dije, ustedes nada más pueden poner aquí.
+Python y ustedes pueden empezar a instalar aquí.
+Por ejemplo, este ya no me lo bota porque ya está instalado.
+De todos modos, en el siguiente vídeo.
+Bien, cada una de estas extensiones ustedes las pueden ir instalando, vale?
+Tienen que ver la reseña y qué es lo que van a instalar.
+Vale.
+Y ya estarán listos para poder utilizar Visual Studio Code.
+También pueden utilizar Sublime, Sublime Text text, perdón, pueden utilizar varios nuevas fuerzas.
+Es eh?
+Yo como les digo en en específico para este curso, yo recomiendo que trabajen con tanto con su, con
+con Visual Studio Code, pero para el curso específico no hay como PyCharm, no, PyCharm está hecho
+para para Python está hecho para ayudarte, te da muchas ventajas que las van a ir viendo conforme vayamos
+avanzando el curso, vale?
+Cuídense mucho y que Dios los bendiga.
+Realmente no tiene nada de ciencia y les subo esta liga, ahorita sale.
+Cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+5. Obtener Ruta CMDER
+Ok.
+Para complementar lo de abrir mi archivo.
+En este caso.
+Mmm.
+Déjenme ver en dónde quedó.
+Se medir.
+Ok, Videos.
+Quiero que vean algo.
+Yo por ejemplo, me fui aquí.
+Mega lo tengo en software y aquí está mi CMD, que va a ser un complemento.
+Ya expliqué en el vídeo.
+Bueno, voy a explicar en el vídeo que tenemos que llegar a esta ruta.
+Es muy importante llegar a esta ruta, vale desde el símbolo del sistema, entonces le doy aquí.
+CMD.
+Abrir como administrador.
+Ejecutar como administrador.
+Abre la consola.
+Van a moverse, se agarren de aquí de lo blanco.
+Mueven.
+También quieren hacer un poco más grande la pantalla del botón derecho y denle en propiedades.
+Y con esto te aparece el cursor, el tamaño, la fuente, el tamaño del buffer.
+Por ejemplo, vean la fuente.
+Ahí está.
+Puedo hacer que la pantalla se vea el texto más grande 18, 20, 24.
+Hola.
+También puedo ver el diseño.
+Cuanto tiene?
+Miren.
+Ancho y alto.
+Aquí.
+Alto!
+Nos va a dar un alto por default.
+Acá un ancho.
+Miren como estoy haciéndolo.
+Ya más grande.
+Y le dan en aceptar.
+Ahí está.
+Vale.
+Me quedo muy ancho.
+Te van otra vez a propiedades.
+Diseño.
+Ancho.
+Me pasé.
+Está demasiado.
+Hoy.
+Vamos a ver.
+Ahí está.
+Vieron.
+Voy a minimizar todo esto de aquí.
+Vale.
+Ahora.
+Cómo le hago para llegar rápidamente?
+Le doy cd diagonal.
+Ahí está.
+Cómo le hago para llegar rápidamente rápidamente a esta ruta?
+Vean esto que está aquí.
+Hola.
+Cómo le hago?
+Bueno, es muy simple.
+Yo ya sé que aquí está mi cmd.
+Bueno, pues hagan lo siguiente.
+Se ponen aquí adelante.
+Automáticamente lo selecciona.
+Le dan botón derecho.
+Copiar.
+Minimizan y escriben cd y lo pegan como lo pegan botón derecho y el solito ya lo pega.
+Ya están ahí, en su ruta.
+En dónde está tu ejecutable.
+Por si no sabían cómo llegar ahí, pueden llegar otra.
+Creo que otra opción es.
+No me da.
+No, antes si tenía la de no me acuerdo cómo sacarlo de aquí.
+Bueno, y me quedé pensando.
+Creo que estando aquí puedo escribir la palabra cmd.
+No, no me lo dio.
+Pero bueno, ya vieron como lo podemos llegar.
+Entonces copié nada más la ruta.
+Puse cd, pegué la ruta y ya estoy en la ruta en donde está mi ejecutable.
+En el siguiente video ya sigan los pasos de cómo conectar con visual, vale?
+Espero que les esté gustando el curso, Cuídense mucho y que Dios los bendigaPrincipio del formularioFinal del formulario
+6. Configurar Visual Stude Code y Cmder
+Hola.
+Qué tal?
+Cómo están?
+Continuando.
+Bueno, esta es una actualización de un vídeo que me están pidiendo bastante de Cypress y de la consola
+de Visual Studio Code, que no les está apareciendo ni el color ni las instrucciones que no pueden hacer,
+LS que no pueden conectarlo con el medir sale entonces y lo entiendo.
+Y bueno, bueno, voy a ayudarles.
+Una vez que ustedes vamos a hacer esta actualización, vamos a descargar.
+Ya está.
+Recuerden que yo les dije que una vez que lo descargaran lo pusieran en una carpeta así como se llama
+C medir en el disco C le dieran aquí CMD Vale?
+Y aquí está el ejecutable.
+Fíjense lo que vamos a hacer primero.
+Por ejemplo, una de las funciones que se pueden hacer es, por ejemplo, yo ya me quiero ir directamente
+a Documentos y que me aparezca aquí el CMD, Vale, entonces ya le doy aquí y automáticamente bueno,
+me está pidiendo la actualización automáticamente.
+Él ya está dentro de la carpeta de documentos, Si yo le doy LS ya carga.
+Cómo logré hacer eso?
+Bueno, pues vamos a hacerlo paso a paso dentro de aquí de la documentación.
+Váyanse a su repositorio de GitHub.
+Y dentro del repositorio en la parte de aquí abajo pues nos vienen varias instrucciones como debe de
+funcionar la parte portable, la instalación, la configuración, pero por aquí hay una que dice.
+Contextmenu integración es esta integración directamente con el CMD, con el administrador y la terminal.
+Bueno, entonces lo primero que van a hacer ustedes es irse y poner cmd.
+Es el símbolo del sistema, le van a dar botón derecho y ejecutar como administrador.
+Una vez que les aparezca ese mensaje, les va a aparecer aquí arriba.
+Su carpeta y su comando de cmd sale que ya están como administradores.
+Denle cd dos puntos diagonal para que lo regrese a la raíz.
+Punto número uno.
+Punto número dos.
+Vámonos a esta carpeta que es CMD.
+Entonces ustedes le tienen que dar cmd y le dan tabulador y el solito ya los completa.
+Quiere decir que ustedes ya están posicionados dentro del CMD?
+En la carpeta donde yo tengo el archivo sale.
+Ahí está.
+Ahora, una vez que ustedes dice ya están como administradores, navegan a la carpeta y copia y ejecuta
+este comando.
+Entonces lo copiamos.
+Lo ejecutamos.
+Damos enter.
+Si no nos manda ningún error es que todo está ok.
+Qué significa esto?
+Que ahora sí, cuando yo ya le di clic a cualquier carpeta, por ejemplo selección este o seleccione
+yo ya la puedo abrir directamente desde el cmd.
+Aquí puedo hacer la actualización, visitar el la página o simplemente cancelar y vean como ya automáticamente
+ya se fue a la ruta en donde está esa carpeta.
+Yo ya podría ver todos los archivos que tiene esa carpeta.
+Ese es el primer punto que quería enseñarles de la actualización de este vídeo sale.
+Esta es 1/1.
+Ahora, una vez que ustedes están ya con esto de la configuración, vamos a abrir el Visual Studio,
+que es lo que más me han estado pidiendo.
+Vamos a ver dos puntos.
+Primer punto vamos a abrir una terminal nueva.
+Aquí están mis terminales.
+Y si ustedes, por ejemplo, le dan en una nueva.
+Ahorita por default me aparece esta del cmd sale cmd.
+Por qué?
+Porque me aparece o por ejemplo esta.
+Qué es lo que nosotros le podemos decir desde aquí?
+Esta pestañita que está aquí, ven el signo de más y aquí ustedes le pueden decir fíjate, aquí ya aparece
+el CMD y por default ahorita les voy a explicar por qué aparece esto.
+Ustedes pueden agarrar, por ejemplo, decir PowerShell o seleccionar el default profile y aquí ya les
+aparecen las opciones.
+Miren aquí ya a mí ya me aparece esto, ahorita van a ver por qué.
+Ya está, me aparece el cmd como opción vendor bin be ta ta.
+Pero ustedes podrían agarrar por ejemplo ahorita el Excel sale.
+Entonces esa terminal si yo ahorita agrego otra terminal me va a aparecer la la consola del C.
+Aquí por ejemplo yo ya no le puedo dar LS sale.
+Espero que esto haya quedado claro.
+Lo vuelvo a repetir, si ustedes a su terminal o a lo que estén utilizando le dicen por default cuál
+de todos estos?
+Aquí está el power Shell, el JavaScript, el Windows PowerShell, el CMD, el normal, el que, el
+que ahorita van a necesitar o ahorita yo estoy utilizando este cmd.exe.
+Y vuelven a abrir una terminal, les va a aparecer así no les va a aparecer el CMD, sale, punto número
+uno, sale aguas con eso, no se vayan a confundir.
+Cómo le hago?
+Ahora sí viene lo interesante para que me aparezca el CMD.
+Y bueno, yo ahorita les voy a subir este código.
+Este código va a estar ahorita aquí en este vídeo sale ya lo van a ustedes, lo que tienen que hacer,
+lo único que tienen que hacer es copiarlo y fíjense lo que van a hacer, se van a ir a esta pestañita
+que dice Managers New Objects y se van a settings.
+Aquí en Settings.
+Fíjense en lo que van a hacer.
+Van a buscar esa propiedad.
+Qué dice Settings?
+Y aquí está Settings.
+Font Ligatures.
+Ligatures o esa cosa?
+No.
+Editar Settings.
+JSON sale.
+Y aquí viene lo más importante.
+Vale, ustedes en su terminal, ustedes tienen esta línea activada por default, como la comenté yo,
+con estas dos rayitas y esta por default.
+Y con esto le digo ya no la tomes en cuenta, ya ni siquiera la peles.
+Fíjense bien que esté esta coma activada para que ahora sí este código esta comentado.
+Y qué es lo único que hice?
+Copiar este código que está aquí y pegarlo.
+Si se dan cuenta, este código es.
+Este código sale.
+Ustedes aquí terminan hacen su.
+Vean aquí.
+Cuando yo pongo este.
+Este no me había aparecido, pero me apareció ahorita.
+Porque me está diciendo que de todos estos el que tome ahorita es este el el prompt no vuelvo a comentar,
+digo esta línea es por lo que hice ahorita, pero vean, aquí está todo lo demás.
+Mi línea que tan.
+Vamos a vamos a copiarla.
+Es más, para que no haya problema.
+Esto lo voy a borrar y lo voy a pegar tal y como yo lo tenía.
+Vale.
+Ahí está.
+Y con esto le estoy diciendo que mi terminal por default va a ser el CMD.
+Ojo, aquí tienen que tener mucho cuidado con su ruta.
+Fíjense lo que estoy diciéndole, le estoy diciendo Ok, en el disco C hay una carpeta que se llama
+C Medir, vamos a ver si se cumple.
+Disco C cmd Perfecto.
+Y luego de esa carpeta cmd hay una que se llama vendor que ya viene por default.
+Entonces aquí y le doy en vendor perfecto, y luego le estoy diciendo que se va a ir a Bin y va a generar
+un archivo init punto cmd.
+Entonces vamos a validarlo nada más bin y aquí me va a generar un init punto C, Aquí está, vale?
+Entonces con este codiguito es con lo que se hace la magia actualmente.
+Antes era más lío.
+Ahora ya con este código es mucho más fácil.
+Guarden su archivo.
+Guarden.
+Abran una terminal.
+Y ahora sí, dígale ok, miren, él ya agarró por default, o sea, ya por default él ya va a tomar
+que la terminal es él sabe medir, aquí está, miren CMD por default y ustedes lo cambian a un powershell
+o a lo que sean.
+Pues ya, bueno, va a cambiar esto, pero ojo, como ahorita ya metimos ese código, el que siempre
+va a aparecer por default es el CMD y como lo dice Cypress curso, yo ya puedo dar en los comandos LS
+y yo ya puedo ver todo lo que está en el cmd en este carpeta y utilizar el Jenkins todo lo que ya está
+configurado.
+Puedo navegar sobre de ellos, irme a alguna otra carpeta, mover, mover, etcétera etcétera porque
+aquí ya tengo la potencia del CMD, vale?
+Espero que este video les ayude, ahorita les subo este código, tengan cuidado en donde están todos
+sus archivos, su configuración, respeten todo lo que ahorita estoy enseñándoles aquí en el video y
+recuerden es en settings.
+Cerramos.
+Aquí donde dice Font Ligatures.
+Settings JSON.
+Y aquí está mi configuración.
+Esto es lo que ustedes tienen que pegar.
+Comenten estas dos líneas.
+Esto péguenlo y fin de todos sus problemas.
+Cuando ustedes abran una nueva terminal, va a aparecer por default, ya que tiene la licencia o que
+están trabajando con CMD por default sale.
+Espero que este video les ayude mucho.
+Sé que han tenido muchas dudas.
+Les pido una mil disculpas, ando muy metido en otros cursos y también solucionando otras dudas que
+han tenido otros de sus compañeros de clase.
+Sale, pero aquí está.
+Perdónenme por tardarme tanto con este vídeo.
+Ando muy, muy estresado con el curso de UiPath y RPA, que ya pronto lo voy a sacar ese curso.
+Entonces este también de una vez aprovecho, los invito a ese nuevo curso sale.
+Y pues bueno, espero que les ayude.
+Y ahora si ya queden todas sus dudas aclaradas.
+Cuídense mucho.
+Subo ahorita el código sin ningún problema para que ustedes ya nada más copien y peguen y lo pongan
+en la sección indicada.
+Cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+7. Instalación, Prueba Uno
+Ok, pues vamos a empezar con la instalación.
+Ya tenemos Node, volvemos a verificar.
+Recuerden nada más el cmd node version.
+Ahí está.
+Entonces quiere decir que estamos listos?
+Nos vamos a la documentación, digo yo.
+De antemano les digo guíense mucho con la documentación.
+La documentación viene muy completa, es válida y esta está muy bien la verdad.
+Entonces pues vale la pena checarla y guiarse desde ahí, no por si hay algún cambio, actualizaciones
+o algo.
+Pues porque luego me han preguntado oiga profe y esto ya se desactualizó?
+Bueno, pues es parte de no, ellos van actualizando y pues no hay como mejor guiarte con la documentación
+y empezar a ver.
+Por ejemplo aquí nos dicen que para poder instalar o instalar nuestro framework una vez que tenemos
+no podemos instalar con el comando npm.
+Si no tenemos node, entonces tenemos que agarrar este comando y una vez que tengamos el comando en
+la terminal node pues ya estaremos listos.
+Recuerden que.
+Pues bueno, yo ya estoy manejando con por default el CMD que también ya vimos como cómo hacer la configuración
+y todo.
+Entonces fíjense lo que yo voy a hacer, yo voy a crear una carpeta, yo ya tengo en sí una de curso,
+ya estoy creando unos ejemplos y ahorita voy a entrar a la de pruebas para ver la instalación.
+Entonces me voy a prueba.
+Ahí está.
+Si yo me voy a prueba veremos que no hay nada exacto y utilizo el comando.
+No vamos a empezar.
+NPM install y me dice Ok.
+Do you want to use?
+Qué quieres usar, TypeScript o JavaScript?
+Entonces yo lo voy a decir que voy a utilizar JavaScript.
+Quieres hacer pruebas de Internet en los tests y que el nombre sea la carpeta o en donde estén?
+Pueden ser test si me gustan test pruebas.
+O podría ser pruebas o bueno, en este caso, como ya hice la carpeta Pruebas, vamos a dejarlo en test.
+Deseas que las acciones de workflow ahorita con GitHub ya lo veremos después?
+Le digo que no, ya les explicaré para qué sirve eso del workflow.
+Instale los browser.
+Todos los navegadores puedes usarlos manualmente y pues bueno, yo le digo que sí, que instale todos
+los navegadores o los navegadores que voy a trabajar genera el keyword.
+Me da los pases y vean lo que hace ya crea una carpeta que se llame Text example y luego también otra
+demo donde vienen muchísimos más ejemplos.
+Luego también crea el archivo de configuración y aquí está no?
+Entonces yo ya puedo trabajar directamente en la configuración, en los archivos de tiempo package.json,
+todos los archivos que vamos a ir poco a poco viendo.
+Entonces ya estamos listos y nosotros ya podríamos ejecutar.
+La primer prueba sale para no quedarnos, por ejemplo aquí ya por default nos trae un ejemplo.
+Vamos a verlo y lo vamos a explicar paso a paso.
+También yo creo una carpeta siempre de notas en donde voy llevando paso a paso todos los comandos,
+no?
+Por ejemplo aquí le puse instalar npm.
+Perfecto, perdón para correr.
+Nosotros vamos a correr con este ejemplo de donde lo saqué.
+Recuerden, no lo estoy sacando de no se me ocurrió no?
+Aquí está de la documentación nos dice que para poder correr ahorita estoy viendo una actualización,
+me está diciendo que no?
+Ahorita estoy checando por qué no me está generando el reporte automático, pero si no pues hay muchas
+maneras también de generarlo.
+No se preocupen, entonces ahorita vamos a correr con este y bueno vamos a ver entonces yo ya tengo
+un ejemplo en la carpeta test, entonces para poder correr esta carpeta pues yo tendría que irme a esa,
+a ese punto, entonces me tendría que ir a hacer cd test.
+Ahí estoy limpio y ahora sí, entonces ejecuto el comando con el que se corre, que sería este un play
+test, no?
+Pongo, lo lanzo y me dice que hay dos ejecuciones y está en lo cierto.
+Cuáles son esas dos ejecuciones o esas dos pruebas?
+Ahorita las voy a ir explicando poco a poco.
+Son el test uno que está aquí, el título que como nos da y el link.
+Y a qué se refiere esto?
+Que podemos tener múltiples pruebas, podemos tener más pruebas en caso de que yo quisiera por ejemplo
+copiar este y que haga lo mismo.
+Yo aquí le podría poner sin ningún problema.
+Y vean aquí por ejemplo, en lugar de Get started link aquí podría ponerle Prueba dos no?
+O prueba tres es un decir.
+Y ahora pues me va a correr las tres pruebas.
+Entonces lanzo.
+Ahí está.
+Vale.
+Ahora.
+Qué es lo que está haciendo realmente?
+Yo no alcanzo a ver las pruebas porque tenemos que pasar al otro parámetro para que podamos ver las
+pruebas en el navegador.
+Tendremos que pasarle este parámetro get.
+Entonces.
+Se lo se, lo copiamos.
+Vamos a ponerlo.
+Le doy ahí.
+Y lo lanzo.
+Vamos a ver también múltiples maneras de correr las pruebas.
+No se preocupen, ahorita nada más es Vamos, es un pequeño intro, vamos nuestro primer test para ya
+ya entrar de lleno a lo que es la ejecución con Playground.
+Y bueno, vamos a un poquito, vamos a explicar, vamos a entrar más a detalle cada uno de estos, poco
+a poco obviamente.
+Y nosotros vamos, por ejemplo, el título del test.
+El primero es el que tiene el título.
+No utilizamos un método asincrónico, una función de una promesa o una función, más bien perdón de
+flecha, y nos dice que vamos a esperar una página que se llama Playground, que como tal pues es esta
+la la página en donde estamos, no?
+Aquí estamos.
+Perfecto, entonces por eso pasa a la primera.
+Y aquí viene algo interesante que nos dice está esperando el título o que contenga substrae del título
+como tal contiene esta palabra Playground.
+Y vamos a ver si esto es cierto dentro del título.
+Vamos a ver cómo lo podemos inspeccionar.
+Le damos botón derecho Inspeccionar.
+Y aquí por ejemplo, yo le puedo dar control F y le pongo title.
+Le doy enter.
+Vamos a ver.
+No me votó.
+Aquí está el de arriba.
+Ok, Y vean cómo está todo esto.
+Y aquí.
+Bueno, el dramaturgo lo está pasando a español, pero realmente sí tiene la palabra dramaturgo, en
+este caso más modernas, etcétera.
+Qué pasaría si yo aquí como tal contiene?
+Yo le pongo la palabra dos.
+Vamos a ver qué pasa.
+Vean de entrada ya se tardó ahí, ya está haciendo ahí como que hay algo.
+Y claro, tienes razón.
+Por qué?
+Porque ya ella me está mandando un error y me dice ok, lo que estoy esperando no está aquí.
+Y ella me dice Ok, entonces no estaba esperando esto y aquí está, Sale en el segundo ejemplo, en
+el segundo test lo que tienes link se va a la página, hace un page nuestros objetos casi siempre como
+lo bueno.
+Si vienen del curso de Python con Python se van a dar cuenta que vamos a crear un context, un page,
+vamos a crear toda una estructura.
+Bueno, es un mundo, no lo que falta, pero vamos poco a poco.
+Entonces nuestro método Page es para abrir la página y get by role.
+Aquí nos dice qué tipo de rol o qué tipo de elemento vamos a buscar y le dice que es un link y el name
+es jetstar.
+Entonces si yo me voy aquí le doy botón derecho inspeccionar si se van a dar cuenta aquí dentro de este
+objeto.
+Aquí por ejemplo está en español y dice empezar, sale está la traducción.
+Quedó dramaturgo en español.
+Vamos a pasarlo al inglés.
+Y ahí está.
+Entonces vamos a darle aquí.
+Y bien, Este es el texto que está buscando.
+Y aquí está Jetstar.
+Y lo mismo pasaría si yo aquí, por ejemplo, le cambio el texto, le doy guardar, pues obviamente
+ya no va a correr esa.
+Ese segundo aplicativo o esa segunda.
+Por qué?
+Porque Jet Starling no, no lo va a encontrar.
+Incluso me tiene que mandar un error ahí y decirme.
+Oye, sabes qué?
+Lo que estás buscando como tal, no lo encuentra porque se espera.
+Recuerden.
+Bueno, si no lo recuerdan, si no han tomado el curso de De con Python, les aviso una de las grandes,
+grandísimas ventajas que tiene Playground compite con, con Python o con cualquiera de los lenguajes
+que se puede programar.
+Es que los tiempos de espera son automáticos.
+Él deja un tiempo de espera y está esperando a fuerza el objeto y si no lo encuentra, pues entonces
+si ya truena.
+Y aquí pues bueno, vimos que tronó obviamente y que dice si lo encuentras después de que lo encuentres,
+dale la función clic.
+Nosotros vamos a crear nuestras propias funciones por tipos, métodos, page, object model o por funciones.
+Ya lo iremos viendo.
+Sale también nos dice que tiene otro await, otro expect y este que está aquí.
+Recuerden se los pasamos desde el context y el expect sale desde la misma accesibilidad de Playground.
+Le estamos diciendo Sabes qué?
+Espérame dentro de la página, que la URL tenga la palabra intro y tú dices bueno, en dónde está la
+palabra intro?
+Bueno, aquí cuando nosotros pasemos y después de darle clic aquí dentro de la pila debe haber uno que
+se llame Intro y ahí está.
+Eso es lo que está haciendo si hacemos toda esta prueba completa.
+Y por último, pues hicimos lo mismo aquí.
+Por ejemplo, en lugar de ponerle int, lo voy a poner Intro dos.
+Vamos a ver.
+Y ahí va.
+Y obviamente aquí la que tiene que tronar es la prueba tres.
+Sale porque la URL como tal no tiene la palabra intro.
+Ahí está.
+Sale.
+Entonces vamos despacio, muy despacio.
+Pero ya estamos haciendo nuestros ejemplos.
+Vale.
+Me iba y ya pasó.
+Sale.
+Bueno, espero que este pequeño intro les esté gustando.
+Recuerden que para que se vean los el comando tienen que poner el header header.
+Si ustedes nada más lo dejan así va a correr por debajo, no va, no va a aparecer el la pantalla va
+a correr nuestras pruebas pero no se va a ver, sale, recuérdenlo, cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+Sección 2: Actualización de mi Página Web
+Sección 3: Instalación desde Visual Stude Code JS
+9. Instalación desde Visual de Playwright
+Ok, continuando con este curso de.
+Qué vamos a ver.
+Bueno, nosotros ya tenemos nuestro curso, pruebas, nuestros tests, etcétera, etcétera También nosotros
+podemos sin ningún problema instalar desde la aplicación desde el mismo Visual Studio Code gracias a
+sus librerías y van a ver cómo funciona.
+Está muy padre eh?
+Como podemos nosotros trabajar directamente con el Visual Studio Code?
+Nosotros nos vamos a extensiones y si ustedes ponen Play create verán que yo ya tengo instalados muchas
+de las extensiones y les recomiendo que ustedes también la pongan, la de Snippets, Code Snippets for
+Visual Studio Code, etcétera Obviamente esto te da muchas ventajas.
+Y cuál es una de ellas?
+Pues desde la instalación, no?
+Que tú no tengas que batallar directamente con lo de la instalación ahorita lo voy a hacer en general
+y él lo va a instalar directamente aquí en la carpeta de Playground.
+Bueno, en toda la se podría decir que la base voy a intentar, digo, no lo no lo he hecho, pero voy
+a intentar.
+Vamos a crear una carpeta que se llame Instalación.
+No lo voy a poner acento para que no no haya problema visual, así le voy a poner.
+Vamos a bueno, escribir mal la instalación.
+Disculpen.
+Instalación visual.
+Ok, voy a ver si podemos hacerlo desde esta.
+Dejarlo como.
+Como la carpeta que sea la base.
+Y fíjense lo que van a hacer.
+Van a presionar Control Shift P.
+Y con eso ustedes van a presionar la palabra o escribir Play right y les va a votar.
+Instalación en play right.
+También lo voy a hacer desde acá.
+Me voy a ir a la carpeta CLS, vamos a ver si nos deja instalarlo ahí.
+Ya estoy aquí, ya le di doble clic también aquí.
+Espero que con esto funcione.
+Control Shift que funcione, que nos deje instalar ahí y con que ustedes crean play ustedes pueden ponerle
+install play right?
+Sale, le dan aquí clic y fíjense lo que hace él nos da las opciones.
+Podemos instalar para el navegador de Chromium, Firefox y WebKit.
+Y nosotros le podemos decir fíjense, vamos a leer, dice.
+Si no seleccionas la versión de JavaScript, él le pone por default TypeScript, que también es válido
+a lo mejor también hacemos algunos ejercicios con TypeScript para que vean la diferencia o cuál es Bueno,
+no como tal, no las ventajas y desventajas Los dos son muy buenos.
+Entonces ustedes, yo en mi caso voy a seleccionarlo y también que nos active lo que es el workflow
+de GitHub.
+Esto Después veremos cómo hacer un ejercicio completo utilizando esta librería.
+Vale?
+Entonces perdón, el repositorio de GitHub.
+Ustedes le van a dar en enter.
+Vean como él empieza, manda todos los comandos y no, bueno, no lo puso donde yo quería, pero ya
+instaló aquí, ya está el package.json ya cambió de configuración.
+Vean, aquí nos dice oye, la carpeta ya existe porque yo ya había hecho una instalación.
+Me dice Ok, quieres volverlo a hacer?
+Puede ser Yes o false.
+Yo aquí en mi caso, bueno, pues ya como ya estaba en false, fíjense, él ya me dice ok, ya está,
+entonces ya nada más lo ya no lo reescribe, ya está.
+Y bueno, ya nosotros estaríamos listos si se dan cuenta aquí ya incluso ya está, me pone el spec,
+el del ejemplo instalación, entonces ya tendríamos toda la configuración lista para poder nosotros
+trabajar directamente desde aquí.
+Cuál es la diferencia?
+Que si se dan cuenta yo abro curso, aquí está test y si ahorita lo vemos no lo instaló donde yo creé,
+pero ya me instaló también en nodemodules, ya me ya me instaló la carpeta test, ya me instaló también
+la otra carpeta test, me puso el gitignore y los paquetes necesarios para poder trabajar.
+Entonces esto quiere decir que si yo por ejemplo lanzo mi comando desde aquí ya debería de poder correr.
+Hola.
+Ahí está.
+Y efectivamente está corriendo el primer ejercicio en los tres navegadores e incluso ya me hace el npm
+store report que es es una de las ventajas que tiene.
+Abrimos?
+Ahí está.
+Le doy en el index, me voy a su explorador y yo ya puedo abrir y me va a mostrar el reporte de actividades.
+Ahí está.
+TITLE En este caso y me va diciendo todo.
+Puedo decirle que me muestre todos paso a paso con WebKit y Get start todos los comandos como los va
+a ir haciendo o todo lo que va a ir haciendo, cómo se fue a la página, etcétera, etcétera.
+Entonces, esta es la otra manera de trabajar.
+Ahora, qué otra ventaja tiene haber trabajado directamente?
+Bueno, podemos hacerlo gracias a la librería que está aquí y nosotros podremos ya también.
+Ahora quiero que vean en esta parte del lado izquierdo.
+Aquí hay una opción que dice Testing Sale y con esta ustedes le dan aquí y vean lo que él hace.
+Me dice Ok, tienes una carpeta que es curso, tienes la opción dos, que es donde ahorita está trabajando
+como base, que es en lugar de agarrar la de test se creó esta carpeta y aquí está, miren y vean,
+ahí están los dos, los dos ejercicios como tal.
+Ahora esto qué ventaja nos da esta herramienta que nosotros en cualquier momento podemos lanzar desde
+aquí.
+Miren, ahí está Ron Test y él lanza el test.
+Y ahí está.
+Ya terminó de lanzar este test?
+Me dice que la prueba pasó exitosamente igual de este lado.
+Si yo los corro.
+Perdón, Yo los abro ahí me los está mostrando sin ningún problema.
+Si yo voy a mi carpeta de archivos y lanzo y ahí están mis dos ejemplos.
+Ya sea con este o este.
+Vean cómo se ejecutan los dos test.
+Ahora también.
+Perdón sin ningún problema.
+Nosotros lo que podemos hacer es ponerle un breakpoint o poner un punto de donde llegue.
+Por ejemplo, nosotros podemos decir ok, lanza este, pero quiero que que hagas un breakpoint sale.
+Es decir, vamos a checarlo.
+Entonces podríamos lanzarlo otra vez el test.
+Vamos a ver si se rompe hasta aquí en el breakpoint y si no lo que hay que hacer es mandarlo en modo
+debug.
+Vamos a lanzarlo en modo debug.
+Ahí está.
+Empieza a pedir permiso.
+La red y ahí está.
+Vean como ya se quedó ahí pasmado.
+Y una vez que se queda pasmado en el breakpoint y que esto nos sirve muchísimo para ir probando, me
+dice oye, está esperando que tú el título y aquí yo ya le puedo continuar, que se vaya al siguiente
+módulo y ahí está.
+Si es que estoy lanzando más módulos, sino pues ya me dice sabes qué?
+Ya llegaste al final y ya podríamos hacer algo parecido para todos los demás.
+Estamos aquí en el testing, me puedo ir aquí completo y le puedo decir mándame todo en modo debug y
+aquí también voy a poner el otro breakpoint, entonces yo lo lanzo completo.
+Aquí me decía.
+Worker está trabajando.
+Perdón.
+Vamos a quitarlos para que no haya ningún problema.
+Y vamos a ver si ahorita nos vuelve a correr.
+Y si no hay que darle aquí.
+Recargar.
+Que termine.
+Ahí está.
+Vamos a ver si ponerme.
+Podemos lanzar de una vez los dos.
+Ahí está.
+Ahorita ya no tenemos ningún breakpoint, pero es muy sencillo utilizar la herramienta y nos permite
+hacer este tipo de trabajos muy fácilmente.
+Vale, entonces espero que les haya gustado la instalación.
+Desde el mismo visual puedes instalar directamente con TypeScript y también directamente con JavaScript.
+Es muy similar.
+Nosotros vamos a trabajar de preferencia con JavaScript y vamos a ir viendo poco a poco el código sale.
+Espero que les esté gustando el curso, cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+Detener
+Aprende Automatización de Pruebas con Playwright con Javascritp nivel Basico-Intermedio (Sub Es,En,Fra,Hin,Ara,Chi,Etc)
+Calificación: 4,0 de 54,0
+38 calificaciones
+140
+Estudiantes
+11 horas
+Total
+Sección 4: Codegen
+10. Ejemplo desde Codegen
+
+Ok.
+Continuando con este curso de Play y JavaScript, nosotros ya vimos como correr, incluso vimos una
+instalación desde cero.
+Como podemos ver la carga de nuestros archivos aquí por ejemplo tenemos tres instalaciones en base y
+nosotros bueno, podríamos utilizar cualquiera.
+Yo por mi preferencia voy a estar utilizando la que es de curso, me voy a ir a esa carpeta.
+Aquí me dice que.
+Presiona Start.
+Y si no para, evalúa la última expresión.
+Voy a cerrarlo.
+Voy a abrir mi terminal.
+Mmm.
+Terminal.
+No terminal.
+Ahí está.
+Me voy a ir a la carpeta Curso.
+Y ahí es donde yo voy a estar trabajando, de preferencia.
+Y nosotros digo tenemos estas instalaciones, las voy, está de plano, pues no, no, no, la no la
+tomamos en cuenta.
+Voy a cerrar aquí.
+Bueno, me dice que está ocupada, yo creo que por recurso.
+Aquí ya estoy.
+Ahora ya tengo estos dos, tres.
+Ahora vamos a suponer.
+Vamos a suponer en un ejemplo que yo quisiera.
+Aquí les voy a dejar esta página que es muy buena de Mocoa y yo quisiera hacer este ejemplo.
+Vamos a suponer que quiero hacer este caja de texto.
+No recargan si no aparece.
+Y a mi me gustaría llenar de una vez estos campos.
+De manera analógico, en este caso nosotros irlo haciendo de manera manual y esto ya se puede hacer
+muy rápido con una de las herramientas que nos da Play, que es el Coding Coding, nos dice que nosotros
+podemos generar directamente este código sin necesidad de ninguna línea de código ni mucho menos.
+Es muy sencillo, sale.
+Entonces nosotros necesitaríamos aplicar este código que está aquí y es lo que voy a poner aquí.
+Vamos a ponerlo como cinco.
+General.
+Desde.
+Ahí está.
+Y nosotros buscaríamos la página, que en este caso es esta página.
+Entonces vamos a ponerlo aquí.
+Ponemos aquí.
+Copiamos.
+Estamos en curso.
+Vámonos a la carpeta.
+Ahí está.
+Vamos a ver.
+Ls.
+Si estamos ahí, Bien.
+Y lo que vamos a generar, vamos a generar un nuevo archivo y le vamos a poner code gen punto aguas.
+Tienen que poner la palabra spec para que sea un archivo válido.
+Ahí está Code.
+Bien.
+Y ahora sí, vamos a.
+Ya estamos ahí.
+Test Fíjense lo que hay.
+Vamos a poner en Npx N y lanzamos la página.
+Vamos a ver qué pasa.
+Le doy enter y ahí está, como lo esperaba.
+Entonces el del lado derecho me aparece la página y ya me empieza a poner ok.
+Fíjense como ya carga el texto, el spec, el test, podemos poner diferentes versiones no ds, library,
+javascript, Python, Python y en este caso punto net.
+Entonces vamos a dejarlo en Run.
+Podemos dejar esta.
+Vean cómo cambia si la librería se vuelve.
+Si lo hacemos de tipo asincrónico o crónico, incluso ya nos genera.
+New Context.
+Vamos a probar los dos.
+Cuál de los dos jala bien?
+Testrunner.
+Yo ahorita lo voy a dejar así y vámonos aquí.
+Fíjense, por ejemplo, yo le voy a dar aquí, le doy tab y fíjense como yo ya escribo aquí algo y él
+ya solito aquí ya me está apareciendo güey.
+Lo localiza por un placeholder, el placeholder que tenga primero le dio clic, luego puso el nombre,
+luego nos vamos para abajo y en este caso yo ya voy a poner aquí mi email.
+Arroba Gmail.
+Puntocom.
+Fíjense cómo si le doy tabulador, incluso utilizo una expresión de presión.
+También nos vamos a ver esa demo de la dirección.
+Uno sale y vámonos con lo que sigue.
+Demo de la dirección.
+Dos.
+A quien no me dio el tabulador.
+Pero bueno, aquí vamos a hacerlo.
+Llamo dirección.
+Dos.
+Y por último.
+Me voy al submit, le doy aquí y ya está, sale.
+Fíjense como yo.
+Ya con esto yo ya generé todo.
+Es una herramienta maravillosa, nos da todo ya el código que tenemos aquí nos porta el javascript y
+nos genera.
+Vamos a ver si todo este código funciona, entonces ya lo tenemos.
+En ejercicios anteriores nos recomendaban que pusiéramos este check.
+Vamos a ponerlo.
+Ahí está.
+Y vamos a ver qué está haciendo.
+Nos está diciendo que primero se vaya a la página, luego por el localizador.
+Debe de haber un localizador de tipo placeholder y se va a ir a Full name.
+Vamos a ver si es cierto.
+Entonces si yo le doy aquí botón derecho, debería de tener la palabra funnel.
+Aquí está.
+Está en español o está en inglés?
+Vamos a ver si lo puedo.
+Porque me lo está mostrando en español.
+Mostrar texto original.
+Ahí está.
+Ah, es que me está.
+Ahí está.
+Vamos a dejar esta función.
+Ahí está Fullname.
+Entonces, si yo le doy en Speak, aquí debe haber placeholder Fullname.
+Perfecto.
+Ahí está.
+Entonces me está diciendo que primero le va a dar clic, Luego con ese mismo selector utiliza la función
+fill y en fill lo que hace es escribir la palabra Rodrigo.
+Luego le va a dar click otra vez y luego se va a ir al siguiente.
+Vean esta expresión.
+Esta está interesante.
+Le dice que voy a utilizar una expresión de bueno, en este caso las teclas del mouse, o un pres o
+un o la del teclado y ese pres está tomando la función de tap, es decir, que puede dar con el tabulador
+y se puede ir de una opción a otra y de ahí ya se va para acá, sale.
+Entonces ya con esto tendríamos el generador listo.
+Vamos a ver qué pasa.
+Vamos a ver si esto es correcto.
+En este caso ya nosotros incluso ya podemos cerrar nuestro generador y vamos a guardar nuestro objeto
+y vamos a correrlo.
+Vamos a correrlo con el head listo.
+Vamos a dejar.
+Dame un segundo aquí.
+Voy a cerrar varias de estas instancias.
+Ok, me voy a la carpeta.
+Curso.
+Test.
+Ahí está.
+Y voy a decirle.
+Vamos a ver.
+Que corra esa o que corra.
+Vamos a ver si desde ahí podemos agarrar la decode.
+Ahí está perfecto.
+Y que agregue el head.
+Se me olvida siempre esa palabra.
+Header head.
+Ahí está.
+Uno comando me dice que no conoce.
+Entonces vámonos.
+Agregar la palabra test.
+Ahí está.
+Listo y vean pues obviamente esto lo hizo muy rápido, no nos da chance de alcanzar.
+A ver, pero si me da chance de ver que esto lo terminó de manera efectiva.
+Vamos a ver cómo podemos generar este code speak de la misma manera, pero ahora con la misma herramienta
+de Visual Studio.
+Espero que les esté gustando el curso, cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+Detener
+Sección 5: Campos input , FILL, TYPE
+11. Fill,Type, Only
+
+Porque continuando entonces con nuestro código, con nuestro curso de Playground y directamente con
+JavaScript, vamos a hacer este ejercicio.
+Vamos a ver unos detalles con los que como.
+El título de este módulo es checar lo que es un fill y un type, realmente no hay gran diferencia.
+Nada más vamos a hacer un ejemplo sencillo y nos va a servir para explicarlo.
+Sale, por ejemplo.
+Yo tengo aquí este djinn que fue el ejercicio pasado aquí incluso ya tengo un input, pero bueno, vamos
+a copiar este.
+Vamos a ponerle.
+Borramos esto de aquí.
+Y acá le ponemos dos, porque les vuelvo a repetir, yo ya había hecho un input.
+Dos.
+Entonces vamos a hacer algo diferente.
+Vean, quiero.
+Quiero aquí poner.
+Bueno, que pongan un poquito de atención.
+Vamos a buscar.
+Y dentro de nuestra.
+Vamos a ver qué opciones nos da con el fin.
+El campo field o los argumentos nos dice que nosotros tenemos que poner el selector, el texto e incluso
+tiene unas opciones que en este caso la opción es por default de 30 segundos.
+Sale.
+Nosotros vamos a ver si por aquí, si no mal recuerdo es.
+Mmm.
+Browser Dialog.
+Es que no recuerdo.
+Van a ver.
+Voy a.
+Bueno, voy a tratar de recordar en dónde está esa parte en donde la espera automática y esa espera
+automática, pues nos da por default esas ventajas y nos da hasta 30 segundos para estar esperando.
+Por favor, en.
+Una de las ventajas que tenemos es que ya no tenemos que hacer esperas implícitas, es decir, que no
+encuentra el elemento y eso.
+Bueno, pues él él nos va a ayudar a ponerlo.
+Esta es una manera de escribir en el texto y también podemos hacer.
+Con una opción.
+Vamos a poner por ejemplo input.
+Van a ver.
+Vamos a ver que otros.
+Aquí nos pone el drag and drop, el press, el wing y el tap.
+Aquí está el tap sale y nosotros podemos poner también esta opción de tap y con esto también podremos
+escribir dentro de la casilla.
+Podemos poner, por ejemplo, tap.
+TypeScript.
+Vamos a ver qué otra nos.
+No, pero no quiero.
+Vamos a ver si nos da acción.
+Aquí hay que poner.
+Ok, las acciones de Radio Buttons, el Option Mouse y aquí Type a caracteres.
+Y aquí nos dice algo que para las opciones preferibles o algún keydown hay un un o subir la pantalla
+o presionar o también podemos presionar poniendo la tecla Tab y es parte de lo que vamos a hacer ahorita
+sale.
+Entonces, por ejemplo, fíjense, yo pude haber puesto fill, aquí pongo el nombre, hasta ahí voy
+bien, aquí presiono click y aquí por ejemplo, en lugar de poner fill, voy a poner también la tecla
+Tab, que es cualquiera de los dos nos debe de funcionar.
+Luego va a presionar Tabulador Dirección uno, Dirección.
+Dos.
+Y si se dan cuenta, no tengo la opción.
+Las opciones finales, en este caso el que le den click en el botón de submit sale.
+Entonces yo como podría hacer eso?
+Bueno, yo ya tengo aquí.
+Si ustedes recuerdan, ya tengo esa, esa parte de aquí, incluso hasta con un assert.
+Vamos a ponerlo.
+Y ahí está de moda y ahí pongo esta con un time out sale.
+Vean como agarra un tipo botón.
+La opción de submit submit.
+Perdón?
+Y con eso nosotros podríamos agarrar este elemento como tal.
+Ahora, una de las cosas que nosotros también podemos hacer es agarrar esta misma opción, cancelarla
+o bueno, poner como comentario y daría lo mismo aquí.
+En lugar de utilizar esta opción, pues también podemos utilizar una opción de press.
+Que es una función que nos da que nosotros podemos presionar alguna opción específica y nosotros lo
+que quisiéramos es el ENTER y después hacer la validación.
+Vamos a ver si esto funciona.
+Entonces yo aquí limpio, ahí está y en lugar de que sea el Spec uno, vamos a poner el Spec dos, entonces
+le doy enter.
+Ahí está.
+Y lo está.
+Lo está terminando ahora.
+Esto para mí es rapidísimo.
+No nos está dando tiempo.
+Yo he estado buscando funciones de pausa y no he encontrado como tal hasta que encontré una en Stack
+Overflow.
+Y bueno, esta función lo que hace es hacer un tiempo de espera, un sleep.
+Y es lo que voy a utilizar, la voy a poner acá arriba, la declaro por default, me dice que va a ser
+una promesa.
+Voy a utilizar una función de tipo sleep que me va a funcionar.
+Para eso resuelve, haz una promesa y pone el tiempo.
+Y entonces yo ya podría hacer aquí una wait, por ejemplo.
+Entonces yo ya podría poner una wait, una espera, pongo mi función que declare que se llama sleep
+y le paso mi tiempo, entonces voy a ponerle 4/1000 o cuatro segundos y con esto yo ya podré hacer una
+pausa.
+De ahí está.
+Los cuatro segundos sale.
+Obviamente, pues nadie me dice que yo ya no puedo hacer lo siguiente.
+Yo ya puedo poner, por ejemplo, después de que le dé la opción de Tip Tip perdón de de aquí.
+Ahí está perfecto.
+Entonces, realmente con la opción de Type o con la opción de Fill, nosotros ya podemos utilizar y
+poder escribir sobre cualquier texto.
+Ahora nosotros sin ningún problema podemos agarrar.
+Vamos a.
+A este le voy a poner tres.
+Dos.
+Vamos a correr, a recordar que nosotros en cualquier momento podemos agarrar nuestras opciones.
+Nos vamos a Test Input dos, Correrlo.
+Y ahí está.
+No debería de correr sin ningún problema.
+Correr la primera prueba.
+Correr la segunda.
+Y digo, estamos utilizando nuestras dos opciones.
+Bueno, estamos corriéndolo por los dos lados.
+Está funcionando de manera correcta.
+Ya pasó la primer prueba.
+Ya pasó la segunda.
+Está.
+Ok, ok.
+Un poquito de retraso.
+Aquí nos dice.
+Recuerden que nosotros que bueno que se está tardando un poquito más aquí.
+No sé por qué se me hace que me hace un close para que esto cierre y no haya ningún problema.
+Ahora nosotros también podemos lanzar el test si se dan cuenta desde ejecute.
+Este elemento nos hace el reporte y ahí está.
+Nos dice que el test no está funcionando, que no está, no lo no lo está encontrando.
+Bueno, podríamos agarrar antes 132 y podemos hacer lo mismo.
+Incluso podemos poner un breakpoint.
+Ahí está un punto de Hacemos la opción de debug.
+Ahí está.
+Va corriendo y ahí se queda.
+Sale.
+Pusimos esta opción de debug.
+Vamos a ver Paso.
+Vamos con la segunda.
+Está corriendo.
+Y aquí es donde hace el debug.
+Ahí está.
+Mira, de ahí ya no está pasando porque aquí ya, ya tengo esta opción de debug que me está diciendo
+Ok, tú me dijiste que me parara aquí, que continúa, entonces le puedo dar una opción más.
+Se va al que sigue.
+Va corriendo y el término ahí va.
+Va con la siguiente placeholder.
+Le digo.
+Continúa.
+Escribe la que sigue y ahí va, sale.
+Y con esto pues yo ya podría terminar completo.
+El ya terminó, incluso genera mi reporte, me voy a mis opciones de testing y ya terminó y pues dentro
+de mis archivos o carpetas pues obviamente me está haciendo mi reporte.
+No.
+Ahí están mis dos test.
+Y me va diciendo que va haciendo en cada uno las ejecuciones, los tiempos, la dirección de la espera.
+Incluso aquí me está diciendo del tiempo el título.
+Y recuerden pues yo que en cualquier momento yo ya podría como tal poner un error o una validación,
+etcétera etcétera y pues ya estaría Sale también algo que vamos a ver de una vez y aprovechar.
+Yo aquí podría decirle que elementos de este test puedo lanzar y por ejemplo nada más quiero que lance
+este o que lance este.
+Entonces yo nada más poniendo la palabra punto only.
+Con esto cambiaría.
+Vamos a ver.
+No?
+I'm sorry.
+Aquí ya está agarrando.
+Guardamos?
+Sí, lo guardamos.
+Aquí está.
+Vámonos.
+Ah, ya.
+Sí, De curso.
+Sí.
+Perdón.
+Disculpen.
+Y ahora Sí, vamos a correrlo.
+Ok.
+Me va a faltar el.
+Fíjate que.
+Ahí.
+Se dan cuenta?
+Lo está corriendo.
+Está perfecto, pero me faltó el.
+Vamos a ponerlo.
+Ahí está.
+Y lo que va a hacer, pues me va a correr solamente el texto o en este ejemplo el ejemplo que yo le
+diga, o el test que yo le diga, por ejemplo, nada más me está corriendo ya el segundo, como lo puedo
+diferenciar que aquí nada más dice vamos a ponerle Rodrigo, lo guardo, lo vuelvo a correr.
+Ahí está.
+No?
+Entonces vimos varias cosas.
+Ya vimos cómo poner una una función de pausa.
+Vimos cómo cambiar un tipo Fill o un tipo type.
+Como podemos hacer una una función de Pres.
+Vamos a ver algunas más.
+Obviamente metimos una validación, un láser.
+Y también vimos cómo hacer que corra uno solo de nuestros test.
+Con la palabra only sale.
+Espero que les esté gustando el curso, cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+Detener
+Sección 6: Radio Buttons
+12. Radio Buttons
+
+Ok, continuando con este curso de play y en este caso con JavaScript, que es lo que vamos a ver,
+Vamos a ver en esta página que se llama Demo los radio Buttons y en este ejercicio lo que vamos a hacer
+es chequear estas dos opciones.
+Sale y nosotros la tercera está en habilitada.
+Tendremos que utilizar una función para deshabilitar, pero obviamente pues eso no tiene lógica porque
+si la están dejando deshabilitada, a lo mejor en el programa tiene que pasar por una validación.
+Entonces, cómo hacemos los checks?
+Es muy sencillo y es lo que vamos a ver ahorita.
+Entonces nosotros nos vamos a ir a esta página y nos vamos a la sección de Actions y aquí vemos que
+las acciones de Action o CheckBox o Radio buttons van por lo mismo.
+En este caso utilizan la función check y es check to be true si es que en caso en el caso de validaciones
+entonces vamos a hacerlo.
+Yo ya lo tengo.
+El ejercicio lo voy a ir explicando paso a paso para que ustedes no nos tardemos tanto.
+Este curso lo voy a tratar de hacer lo más práctico posible.
+Que no, no nos lleve tanto tiempo ver todas las secciones y bueno, veamos qué tal, qué tal responde
+la gente.
+No?
+Espero que para ustedes sea más agradable.
+Entonces pongo las funciones de test, los expect, pongo la función de sleep aquí cree una variable
+que podría haberla dado con la variable var o constant.
+Eso ya es cuestión de ustedes.
+Ya depende.
+Ya vimos las reglas de las variables aquí.
+Yo por ejemplo, pongo una variable que se va a tardar un segundo y fíjense en el primero.
+Voy a hacer primero el primer test.
+Punto.
+Only.
+Voy a dejar que este corra primero.
+Y ahorita voy explicando al segundo qué es lo que voy a hacer.
+Me voy a la página de radio Button, le doy en el botón de y luego en el de clic y luego un sleep.
+Aquí lo único que estoy haciendo es brincarme de uno a otro.
+Entonces aquí voy a poner un tiempo.
+Por ejemplo, aquí voy a poner.
+La variable de tiempo, ya que igual solo.
+Se van a tardar ahorita un segundo.
+1500 Vamos a ponerlo para que se tarde un poquito más y nos dé tiempo.
+Y le estoy diciendo que nada más corre el primer ejercicio.
+Entonces me voy ahí y le doy Npx Playwrights Radio, que es el nombre que tiene y que lo muestre.
+Sale.
+Entonces vámonos con el primero.
+Ahí está.
+Vamos a ver.
+Por aquí.
+Nos dice que tenemos a tiempo.
+Perdón.
+Ok.
+Ahí está.
+Vamos a verlo.
+Ok, un segundo.
+Perfecto.
+Ahí está.
+Y ya pasó el primero y vámonos con el segundo.
+Vamos a ver qué diferencia tiene el segundo ejemplo.
+Lo único que tiene es una validación que pues ahorita se las voy a explicar.
+Si se dan cuenta lo único que estoy haciendo y vean la diferencia con este.
+Estoy utilizando un selector tipo byte text que significa que cuando yo le dé aquí y le doy en el botón
+Inspeccionar, el texto que está sobresaliendo es la palabra yes y hago lo mismo para el botón de impredecible
+o impredecible.
+Preciso.
+Aquí está Sale y estos son mis electores.
+Estoy agarrando la palabra y la palabra con el byte.
+También lo puedo hacer con un expand, con un label, etcétera Va a haber una clase de selectores,
+pero bueno, ahorita vamos a empezar con este.
+Entonces fíjense lo que estoy haciendo aquí en lugar de poner la opción click pongo la opción Check
+y aquí si se dan cuenta cuando lo cargo hago un aspecto.
+Este spec lo que está haciendo es validar si este botón está siendo chequeado o no, es decir, si pasa
+por la validación.
+Yo aquí lo voy a dejar ahorita así y si se dan cuenta nada más regreso de uno a otro, entonces este
+botón, este, esta función, este spec lo único que está haciendo es validar si el botón realmente
+fue chequeado, Vamos a correrlo y validar.
+Ok.
+Se dan cuenta?
+Va, regresa y me dice que sí, que no hay ningún problema.
+No hubo ningún error.
+Incluso el botón pasó.
+Pero qué pasa si yo le pongo una S de más?
+Vamos a ver si ese esa opción de ese RadioButton queda chequeado.
+Diez.
+Si se dan cuenta, ahí ya se quedó pasmado.
+Ya no está haciendo nada.
+Qué quiere decir esto?
+Que él realmente ya no está pasando.
+La validación como tal no está tomando la la validación y pues bueno, ahorita voy a esperar nada más
+a que termine de hacer el ejemplo.
+Y lo que está haciendo como tal, pues es, ahí está.
+Me está diciendo que tienes un problema en paralelo y aquí me dice que esta función no está pasando
+como debe de ser.
+Si yo le pongo el diez, pues ya le debe de pasar sin ningún problema como lo validamos.
+Y incluso con la validación del espectro sale.
+Entonces esta es la manera muy sencilla de nosotros poder validar si un botón está chequeado o no y
+poder tomar en este caso hacer su aspect y pasarle el valor.
+Sale.
+Espero que les esté gustando el curso.
+Vámonos con lo que sigue con el video que sigue.
+Espero que esté, que les guste mucho el curso.
+Perdón y que Dios los bendiga.
+Cuídense mucho.
+Principio del formulario
+Final del formulario
+Detener
+Sección 7: Playwright.config.js
+13. Archivo de Configuración (config.js)
+Ok.
+Continuando con este curso de Play Grid con JavaScript, antes de continuar quiero mostrarles algo.
+Nosotros podemos seguir trabajando el RadioButton o checkbox, etcétera etcétera pero no hemos visto
+algo muy importante?
+Y qué es esto que es muy importante?
+Bueno, es nuestra configuración.
+Nosotros cuando damos ejemplos, por ejemplo, que estamos creando nuestros ejemplos, etcétera, etcétera
+Por ejemplo, vamos a ver este no y que podríamos modificar por ejemplo, los tiempos de respuesta,
+el tamaño de la pantalla, cosas como eso.
+Esto se hace desde este archivo, desde el config.
+Por ejemplo si yo me voy me voy a la pestaña de curso y ahí busco el test test test test ok.
+Y por ejemplo voy a lanzar este este ejemplo, no el el famoso vamos a ponerlo aquí y y voy a lanzar
+ese ejemplo que está ahí, por ejemplo el de Demo dos.
+Curso.
+Hace falta estar en tres.
+Ok, mamá, espérame tantito.
+Curso, Test.
+Ahí está.
+Ahora sí.
+Perdón.
+Entonces yo estoy aquí.
+Y por ejemplo, a mí se me ocurre lanzar este demo dos punto.
+Ok, y vamos a llegar.
+No quiero que vean algo.
+Por ejemplo, nosotros lanzamos y vean el tamaño de la pantalla.
+No es muy grande, no tenemos los tiempos de ejecución, no tenemos opciones de video, no tenemos opciones
+de screen, no tenemos varias opciones.
+Entonces, qué es lo que vamos a ver?
+Nosotros podemos modificar todo esto, configuración o todo esto.
+Recuerden, estamos en esta carpeta de curso en Play Reports, aquí tenemos las opciones de test y aquí
+si se dan cuenta yo incluso ya tengo una como base, que es de donde yo me voy a quedar porque ya hice
+muchas pruebas con este archivo, pero este es el que viene por default y este es el que tenemos que
+modificar nosotros lo tenemos que poner a nuestro a nuestro punto de dejarlo ahora sí que lo mejor posible.
+Y sobre de eso pues ya nosotros ya podremos trabajar.
+Entonces vamos a empezar, vamos a quitar por ejemplo los comentarios, cosas como esta que no ahorita
+van a ver esto los vamos a dejar al html ius, por ejemplo el de ius, vamos a dejarlo lo más libre
+que se pueda para que?
+Este es de los que más vamos a ocupar.
+Opción de los projects.
+Bueno, eso también es parte de lo que funciona bastante, pero ahorita lo vamos a explicar.
+Mmm papá y vamos a quitarle hasta aquí.
+Dale entonces vamos a borrar y vamos a dejarlo así.
+NEWS Hasta esta parte de news y bueno, ya conectamos lo de los proyectos, ya acuérdense de no borrar
+esta parte de coffee y así quedaría nuestro archivo base sale.
+Entonces es más, yo cuando ya termine este video que va a ser un poquito largo en la explicación,
+pero bueno, vale la pena.
+Lo que voy a hacer es subir este archivo para que ustedes lo tengan ahí como como base y ya puedan copiarlo
+si ustedes quieren o que les sirva como como base.
+Ok?
+Entonces ya tenemos esta parte, ya tenemos la configuración inicial y aquí vamos a ir poco a poco qué
+es lo que nos está diciendo?
+Por ejemplo, esta es una de las partes más importantes.
+Bueno, todo es importante, pero por ejemplo, nos dice que el archivo base o el archivo desde donde
+están corriendo nuestros nuestros ejemplos es de la carpeta test que está aquí.
+Qué pasaría?
+Qué pasaría si yo por ejemplo le agrego una S sale?
+Y fíjense lo que voy a hacer.
+Estoy aquí CLS, me voy a regresar a una carpeta.
+Antes le voy a poner nada más en la carpeta Curso y voy a tratar de lanzar otra vez desde test este
+ejemplo que está aquí.
+Vamos a ver qué pasa.
+Nos manda un reporte y nos dice Test no found sale y esto nada más es porque no estamos diciéndole cuál
+es la carpeta bien de origen.
+Qué pasaría si yo ahorita le regreso, lo guardo, sale y vamos a ver qué pasa.
+Yo vuelvo a lanzar mi archivo y ahí está, está corriendo.
+Entonces vamos a tomar como base este archivo o este, este, este objeto que nos está diciendo test
+en la dirección del test en donde está y aquí lo toma por default.
+Este va a ser nuestra primer modificación como tal.
+Ahora viene la siguiente el timeout.
+Este es un general, es decir, cuánto va a tardar la aplicación o cuánto tenemos.
+Se supone que tenemos hasta 30 segundos para poder hacer que la aplicación corra.
+Este es como su nombre lo dice, es para este timeout, es para cuando tengamos los expect que vamos
+a ver una sección completa de todo eso de los expect y de las validaciones y pues bueno, cuánto tiempo
+se puede tardar cada una de esas?
+Ahora viene una opción que se llama Fully Parallel y esto es por si queremos opciones de paralelo dentro
+las podríamos quitar.
+Pero bueno, aquí viene también una sección importante reporte y es donde nosotros vamos a generar los
+reportes.
+Por eso cuando vimos un error se generó esta parte de Play Report y nos da esta parte y aquí tenemos
+el tipo de reporte, incluso nos dan unas opciones.
+Vamos a ver más adelante una sección específica para reportes y vamos a ver que también podemos generar
+unos archivos JSON o CSV sale, pero eso lo vamos a ver más adelante.
+Esta es la parte que más me importa, la parte de iOS.
+Aquí viene algo interesante.
+Aquí empieza detalles muy importantes acerca de toda la configuración como tal y por ejemplo, el primero
+que vamos a ver o uno de los que vamos a ver.
+Vamos a ver dos opciones, una que se llama handlers y en general handlers es de las partes más importantes
+que tenemos en esta configuración.
+También vamos a ver el trace, todo eso sale.
+Pero bueno, vamos a empezar por el Elders que es el Gels.
+Si se dan cuenta nosotros cuando lanzamos una, una versión o un ejemplo, por ejemplo este, tenemos
+que agregar esto para que funcione.
+El head header sale sin eso nosotros no veríamos la opción, ya lo hemos hecho.
+Por ejemplo corremos, le damos a Enter y él lo va a correr por detrás.
+La máquina ni siquiera nos va a abrir como tal el navegador, sino que él está haciendo la prueba.
+El jala.
+El dice Ok, estás bien?
+Ahí está.
+Uno pasó y se acabó para no estar cargando como lo ha estado haciendo hasta ahorita y estar agregando
+ese comando.
+Nosotros utilizamos esta palabra Elders y con que lo pongamos en false guardamos.
+Ya le estamos diciendo que siempre corra las aplicaciones en el navegador.
+Vean, yo ya lo lancé y ahí está, sale, ya no le tuve que agregar la primer palabra.
+Else sale.
+Ahora ya estamos en esta parte, ya tenemos el Elders, ahora vámonos con otra opción que es Opción.
+A mí me gusta mucho y es para el tamaño de la pantalla.
+Entonces con el viewport todo esto de dónde lo saqué?
+Ok, nos vamos aquí nos vamos a Configuración y ponemos Configuración.
+Sale y aquí se dan cuenta.
+Viene Configuración global y local.
+Cuál es la diferencia?
+La configuración global se refiere a todo lo que tú vas a hacer en este archivo, en este que estamos
+trabajando ahorita en el Playground config js y la local quiere decir que también ustedes pueden modificar
+en este caso, por ejemplo, aquí se va al global y aquí el local y nos dice que cuando corramos el
+test, si te das cuenta desde antes que podamos hacer el test, nosotros podemos decir test use y pasarle
+la palabra.
+Ahorita somos la prueba para ver si funciona de manera correcta y si no, pues bueno, ya lo tendremos
+desde aquí que es para mí es la más importante esta.
+Por qué?
+Porque desde aquí yo ya configuro todo mi mi trabajo como tal.
+El viewport lo que está diciendo perdón es decirle a la pantalla que tenga un ancho de 1800 por 800.
+Se dan cuenta?
+Toda la pantalla estaba muy pequeña, yo lo puedo comprobar a manera de que ahorita yo por ejemplo ponga
+700 por 400, son de 100 y con eso ahorita que yo lancé el proyecto otra vez se va a ver la pantalla
+muy pequeña, lanzo y ahí está en la pantalla queda muy muy muy pequeño, sale.
+Entonces desde aquí nosotros podemos configurar ancho y alto y a mí me gusta mucho esta opción porque
+ya le pongo por ejemplo 1800 y aquí lo voy a poner 800 para que así me ocupe todo el tamaño de mi pantalla.
+Entonces lo voy a poner y vamos a ver la diferencia.
+Ahí está, vean como ya, ya casi es toda la pantalla.
+Aquí dejo siempre esta opción aquí para que se alcance.
+A ver.
+Es más, creo que todavía le puedo poner otros 50.
+Ahí está Sala.
+Entonces desde aquí nosotros podemos correr y verificar el tamaño de nuestra pantalla.
+La siguiente opción, que también viene ahí en las opciones de configuración, es la opción de Browser
+Browser Name.
+Este browser name que nos está diciendo que tú puedes correr tu aplicación en cualquiera de estos tres.
+Por ejemplo, ahorita lo voy a correr en Chrome sale y con eso yo ya le estoy diciendo sabes qué?
+Siempre corre mis pruebas en Chrome con Chrome en Chromium, entonces él si se dan cuenta ahorita lo
+está abriendo en Chrome vamos a hacer ahorita por ejemplo con WebKit, con webkit.
+Yo me he dado cuenta que la aplicación se tarda un poquito más, pero pues se puede correr.
+Al final ustedes le dan la opción de WebKit, él va a correr, pero quiero que vean cómo lo corre.
+Se tarda un poquito más ahí se da cuenta.
+Aquí nos dice que es una opción de directamente desde el WebKit.
+Les vuelvo a repetir, se tarda un poquito más, pero jala, funciona, Sale.
+Entonces.
+Esta opción ya es de ustedes.
+Pueden correrla en Chromium, pueden correrla en Firefox o pueden ponerla en WebKit.
+Yo en lo particular me gusta ponerlo siempre en Chromium, no?
+Ahí está, sale.
+Esto es por si ustedes le dicen oye, sabes qué?
+Nada más quiero que me quiero que me corra un navegador sale.
+Y recuerden que ahorita vamos a ver múltiples navegadores.
+Por eso les digo este video va a ser un poquito largo, es largo pero vale la pena.
+Vamos a estar viendo bastantes configuraciones.
+Otra opción que viene si llegáramos a tener algún error o algo sobre las peticiones, pues que nosotros
+la pudiéramos limitar y con esto HTTP ignore o ignorar los errores de tipo script sale.
+Ahora vámonos con el que sigue.
+Este en lo particular me gusta mucho y vamos a explicarlo.
+Vámonos con las opciones de script.
+Es decir, nosotros vamos a poder tomar tres tipos de opciones en la foto.
+Por ejemplo, le podemos decir que estén apagadas.
+Si nosotros apagamos no va a haber ninguna, ninguna opción.
+Aquí por ejemplo lo puse, le pongo, le pongo el off y pues bueno, yo puedo correr, no va a haber
+ningún screenshot, ni al final, ni al principio, ni nada, o sea, no va a haber este, ninguno sale
+en al momento que generemos el reporte.
+Si yo ahorita me voy al play y le doy un botón derecho, vámonos a ver los reportes, pues me voy a
+dar cuenta que no tenemos ningún screen, no hay ningún aquí no hay nada, no nos está mostrando nada.
+Qué pasaría si yo pongo la opción on y vamos a ver las opciones para entenderlas?
+No?
+Aquí está, lo corro.
+Perfecto.
+Aquí incluso vean, ya hay una data y como tal ya es la imagen.
+Si yo me voy al Explorer, ahí está el data y se dan cuenta, ahí está la imagen.
+Entonces yo ya corro, le doy en el objeto y vean, ya me dio la opción del screenshot.
+Perfecto, Entonces esta es la otra opción y la otra que también está es esta que se llama Only on full,
+es decir, solamente después de que hay un screenshot o algo, si es que hay alguna falla en el sistema.
+Si se dan cuenta ahorita yo por ejemplo lo corro, está corriendo de manera correcta, pero si yo no
+me preocupo o no hay una falla, pues no va a haber ningún, no va a haber ningún screenshot, no va
+a haber ninguna pantalla.
+Sale.
+Se dan cuenta?
+No hay nada.
+Pero qué pasa si yo este misma opción de Demo dos?
+No sé, vamos a ponerle aquí dos.
+Perfecto.
+Y vamos a verificar que esté bien.
+Ok, ahí está.
+Ya tiene un error ahí.
+A un errorcito que es el elemento, no lo encuentra como tal.
+Ella se quedó pensando.
+Perfecto.
+Eso es buen síntoma.
+O nos está diciendo que algo está pasando?
+Porque se tarda?
+Porque tenemos esto de la configuración.
+Recuerden, tenemos hasta 30 segundos para decirle que el navegador que está aquí nosotros se quede
+pensando que buscan, no te desesperes, etcétera etcétera.
+Ahí está, ya, ya lo cerró, le doy control.
+C Me dice que sí, ya puedo terminar y vamos a ver qué pasó ahí.
+Ya, ya veo que ya está la data otra vez.
+Que sí, que ya hay un error y vamos a ver nuestro examen.
+Ahí está nuestro test.
+Si se dan cuenta, aparte de que nos manda aquí, nos dice ok, tienes un error por aquí ya también
+tenemos el screen, de ese error sale.
+Entonces estas son las opciones de screenshot y yo podría haber hecho un video de cada uno separado,
+pero el objetivo de estos cursos voy a tratar de ser más concreto, más rápido y llegar al punto, no?
+Entonces ya tenemos las opciones de screenshot.
+Ahora también nos permite generar videos y aquí bueno, se los voy a poner como yo lo encontré y ahí
+está, sale.
+Qué significa esto con el video?
+Pues como tal lo estamos encendiendo.
+El off es igual y aquí es muy parecido a esto sale retener file o en este caso grabar video para cada
+prueba, pero elimina todos los videos o ejecución de pruebas exitosas, todos los videos que estén
+pasados.
+Ahí está.
+No, no va, no va a aparecer.
+Y si graba el video solo o vuelvo a intentar una prueba cada vez que lo lanza o cada vez que se lanza
+se genera un nuevo video?
+Ustedes pueden poner cualquiera de las dos o va a estar encendido.
+Bueno, voy a dejarlo ahorita encendido y ahorita hacemos este por ejemplo, entonces yo ya lanzo.
+Ahí está.
+Tenemos el fallo.
+Perdón.
+Se me olvidó corregirlo.
+Bueno, vamos a lo que lanza el error.
+Lanzar el error.
+Lo voy a guardar.
+Vamos a esperar un poquito.
+Aquí este.
+Bueno, yo lo que les recomendaría sería este Graba video para cada prueba, elimina todas las ONG exitosas.
+Aquí nos dice que cerremos.
+Le digo que sí y aquí pues obviamente.
+Miren, aquí ya está, yo veo luego, luego el data, el video, ahí está, entonces la parte de abajo
+veo, incluso no sé si vieron ahí tiene un loguito, ya se veía bonito el loguito.
+Vamos a ver si lo puedo recargar
+ya no me dio, pero bueno, ahí está y incluso nos aparece el video y pues el video nos manda el error
+no?
+Obviamente que estábamos esperando ahora pues nosotros podemos dejarlo así y ahora sí ya correrlo de
+manera correcta, ya sin fallo.
+Ok.
+Ahí está.
+Vean como genero la data.
+Perfecto.
+Y nosotros ya podemos verificar.
+Ahí está.
+Ahí está.
+Vean como aquí nos aparece hasta el iconito y ya lo está cargando y listo.
+Le damos aquí.
+Y ahí está.
+Obviamente no pedimos que el video sea de una súper calidad, pero la verdad que es muy buen video y
+esto pues ayuda a nosotros a nuestros reportes a darle una calidad mucho mucho más avanzada, no?
+Y nosotros tenemos la opción de Trace, lo voy a poner acá abajo.
+Recuerden que para nosotros cuando queramos hacer nuestros reportes de modo visual o bueno los tuvieron
+el curso también ya de con Python, pues bueno, nosotros podemos generar manera como una historial
+o una, sí, una idea de todo paso a paso de lo que va llevando esta ejecución.
+Y aquí está.
+Voy a poner aquí los objetos que va a ir mostrando el registro de cada uno, cada una de las pruebas,
+registros de seguimiento de cada prueba para eliminar las ejecuciones que no hayan sido exitosas y el
+seguimiento de cada prueba y lo vuelva a hacer.
+Entonces nosotros podemos poner cualquiera de los dos.
+En mi caso particular tanto los videos y esto para no generar tantos archivos los tengo apagado.
+Sale ya Si alguien me dice oye, sabes qué?
+Este pues bueno, necesitamos, necesitamos videos y los las trazas y en este caso que me vaya mostrando
+paso a paso pues los los ejecuto no?
+Pero pues con esto nosotros cumplimos esa parte de ahí, de estar llevando toda esa parte del video,
+una parte que también me llamó mucho, mucho la atención y que yo dije ah, pues está padre, es que
+tú puedes correr, no nada más, por ejemplo como lo hice aquí con el, con el navegador Chromium o
+con con un navegador específico, sino que tú le puedes decir tú puedes generar los proyectos y usar
+las div, incluso generar este tipo de proyectos individualmente.
+A qué me refiero?
+Vamos a ver, vamos a suponer que yo quisiera correr en múltiples plazas o en este caso en diferentes
+navegadores.
+Aquí viene la versión local, viene las opciones.
+Todo esto que les estoy enseñando, pues de aquí lo ve?
+Y aquí viene una opción que dice Múltiples browser y esta es la opción que nosotros tendríamos que poner.
+Por ejemplo, nosotros podemos poner hasta aquí, incluso hasta Safari.
+Miren, por lo que estoy viendo, vamos a ver si esto aquí está, ahí está, vamos a ponerlo hasta aquí.
+Copiamos Project, regreso y aquí, antes de esta comida, aquí voy a poner mis navegadores.
+Entonces, qué le estoy diciendo aquí a los navegadores?
+O les estoy diciendo Sabes qué?
+Y tú genera en las tres instancias y que se vean en los tres.
+Vamos a ver si esto funciona de manera correcta.
+Le voy a poner aquí y ahí está.
+Si se dan cuenta, lanzó tres diferentes navegadores.
+Y ahí está.
+Todos funcionaron de manera correcta.
+Si yo me voy aquí a la terraza o en este caso, a ver el.
+Ahí está en Chromium, en Firefox, en WebKit y me va mostrando cada uno de ellos como lo fue corriendo,
+no?
+Entonces regresamos a todos, los puedo agarrar con Firefox y ahí está, sale.
+Y también algo que podemos dejar como nota muy específica es que cada uno de estos puede tener su propia
+configuración de acuerdo a la documentación.
+Nos dice que nosotros podemos tener diferentes opciones o especificaciones de acuerdo a cada uno de
+los navegadores.
+Es decir, vamos a ver aquí por ejemplo miren Browser Chromium nos dice Utilizar y vean aquí esto esta
+interesante que tú le puedes poner el tamaño a cada uno de estos navegadores.
+Entonces a mí me llamó la atención y dije bueno, vamos a hacer una prueba, un browser Chromium
+debate, vamos a ver aquí, vean hasta móviles, es más, voy a traer toda esta proyecto, voy a copiar
+para que nos tardamos tanto y lo voy a pegar.
+Entonces aquí lo voy a pegar.
+Y vean, ahí tengo un Project Chromium de tal medida, webkit de tal medida.
+Por ejemplo, vamos a hacer que WebKit sea mil Firefox que sea de 1800.
+Estos son móviles, ya vienen por default y bueno, nos está diciendo que incluso va a lanzar hasta
+versiones móviles.
+Esto está muy interesante, vale?
+Entonces vamos a ver, ahí está, cinco navegadores.
+Perfecto.
+Y ahí están.
+Miren, todos están corriendo con diferentes medidas.
+Perfecto.
+Y obviamente siempre la de WebKit es más lenta siempre.
+Bueno, ahí les recomiendo que si van ustedes a trabajar con este navegador, bueno, estén bien conscientes
+que esto pues bueno les puede traer estas repercusiones.
+Yo en lo particular yo prefiero nada más.
+Lo que hago es dejo aquí lo comento con la tecla control y este corchete hacia la derecha y me comenta
+todo.
+Ya está comentado todo y yo en lo particular pues prefiero trabajar directamente nada más con el navegador
+de Chrome y ya con las especificaciones que yo ya le haya puesto, pero eso ya es de cada quien, no?
+Cada quien de acuerdo a sus necesidades o en este caso en la empresa.
+A lo mejor te dicen oye, sabes que yo necesito que corran estas tres aplicaciones y quiero que corra
+bien, perfecto, Entonces ya vieron cómo lo pueden hacer, Lo pueden hacer con toda esta configuración
+que está aquí y como les repito, ahorita voy a subir toda esta configuración.
+Disculpen que el video ha sido largo, pero creo que se vio bastante.
+Se pueden hacer muchísimas cosas dentro de la configuración y cualquier duda que tengan o algo pues
+búsquenlo directamente en la página de configuración que fue donde yo.
+Tienen estas opciones de red, condicionamientos incluso hasta para usuarios.
+Estuve leyendo tiene tiene bastantes cosas interesantes no?
+Aquí ya viene el lado de lo de video, las trazas, todo lo que ustedes pueden hacer con estas opciones
+de trazas, etcétera no?
+Entonces espero que les haya gustado, cuídense mucho y que Dios los bendiga.
+14. Archivo config (Trace)
+Hola.
+Qué tal?
+Este es una continuación.
+Nada más pequeño.
+Se me fue.
+Se me olvidó.
+Ya después, cuando estuve viendo, dije Bueno, creo que.
+Creo que no expliqué el track y lo voy a explicar.
+Qué es el tracing?
+Lo que genera el registro de todo lo que es la traza del movimiento.
+Si yo por ejemplo le pongo off, bueno, aquí lo que estábamos haciendo vamos a correrlo y esta demo
+que.
+Que corren y no hay nada.
+No debe de haber ningún test de resultados.
+Aquí no hay ningún test de resultados.
+No aparece nada.
+Pero qué pasa si yo pongo on?
+Si yo enciendo y le digo OK.
+Generarme las trazas y quiero ver todo lo que genera ese elemento.
+Entonces vean la diferencia.
+Ahí está corriendo y aquí en el test de resultados me genera dentro de una carpeta que se llama de test
+me me genera una opción de trace.
+Sale.
+Y esto cómo funciona?
+Cómo lo hago?
+Que que se ejecute?
+Bueno, es muy sencillo.
+Nosotros vamos a utilizar ahorita este comando, pero para que funcione tenemos que estar en esta altura,
+en este test results de test.
+Entonces nos vamos para acá y le ponemos CLS test results demo y ahí está.
+Y ahora sí, ya estoy en la posición correcta.
+Y ahora sí le digo gracias a este comando Npx Playground Show y si lo pongo le doy enter y vean lo que
+aparece.
+Me aparece toda la traza, todo el ejercicio completo.
+Está muy padre porque te va mostrando pantalla por pantalla que fuiste haciendo.
+Vean, ahí se va viendo.
+Voy viendo toda la configuración de este demo, me va mostrando los puntos de acceso donde voy metiendo
+datos, como voy metiendo por ejemplo aquí en el input, vean la localización, la consola, la red,
+lo que mandaba, si estaba localizado.
+Incluso podemos checar el código que estuvimos haciendo para ejecutar todo este elemento.
+Entonces esto parece poco, pero realmente pues es bastante, porque nosotros pues desde aquí ya vamos
+viendo todo el todo, el objeto y toda la configuración no se ve, se ve muy interesante y podemos mostrar
+todo este tipo de cosas gracias a esta extraordinaria herramienta.
+Perdón que no lo haya dicho, se me fue, pero bueno, ya está.
+Ahora sí, ya, ya ven lo que es el trace, incluso si nada más hay un error o si es la primera vez
+ustedes lo pueden.
+Yo por ejemplo, y le vuelvo a repetir, no lo genero, pero ya es cuestión de ustedes, no lo voy a
+dejar ahorita en sí para que esté generando las trazas y no haya ningún problema.
+Sale.
+Espero que les haya gustado el vídeo, cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+Sección 8: Page Object Model
+15. Introducción Page Object Model
+Ok.
+Continuando con este curso de Play Grid y con JavaScript, vamos a entrar a una sección que se llama
+los Page Object Model, que es un Page Object Model.
+La verdad es que yo ya ninguno de mis frameworks lo puedo manejar sin esto, ya es una rutina, ya es
+una base para mi muy fuerte de programación.
+En este caso para mí ya es importantísimo.
+Es indispensable tener los Page Object Model y como se nota, bueno, nosotros podemos dividir nuestro
+código.
+Hasta ahorita todo lo hemos hecho en una sola página, esto quiere decir que todo tu código iría en
+una escala y pues podrías llevarte 10.020 mil líneas de código ahí en en una sola hoja y es válido,
+o sea, cada quien programa a su gusto, pero a mi en lo particular la verdad es que se me hace repetir
+demasiado código cuando tú ya puedes centralizar tu código en pequeñas secciones.
+Qué quiere decir esto?
+Que tú vas a crear una sección de login, la página de home page, el test script uno, script dos,
+login, test dos, etcétera, etcétera Y así podrías ir dividiendo todo tu código.
+A mi en lo particular no me gusta centralizar en pequeñas fracciones, sino que me gusta hacer mis mis
+funciones funciones que regresen valores o que tengan argumentos, que pasen estos valores en los métodos
+y ya cuando ya nada más las mandes a llamar tú, tu puedas mandar a llamar la función sin tener que
+escribir todo el código y es mucho más rápido y efectivo.
+Claro que hay secciones donde yo puedo hacer una sección completa que por ejemplo se llame login y ya
+con eso yo ya no repetiría ese login varias veces, ya nada más le pasaría unos argumentos y estos argumentos,
+una vez que se los pase nosotros ya podemos estar utilizándolos de una página a otra sin necesidad de
+estar repitiendo todo ese código.
+Vale, ahorita lo vamos a ver y nos vamos a guiar con la página oficial de Playwrights en Node.js.
+Acuérdense, estamos trabajando en eso y aquí nos vamos a ir con esa sección de Page Object Models en
+donde nos van explicando poco a poco todo lo que viene.
+Como tenemos que crear el constructor nuestras funciones aquí por ejemplo, estas funciones nos regresan
+argumento, pero por ejemplo como generar el constructor?
+Como poder utilizar esta función page, cómo pasarla directamente a nuestros demás scripts y después
+también veremos cómo utilizarlo directamente ya en otra página.
+Todo esto lo vamos a hacer paso a paso y bueno, se los voy a ir explicando de acuerdo al siguiente
+video sale.
+Espero que les esté gustando el curso, cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+16. POM UNO
+Ok, pues vamos a entrar de lleno.
+Yo aquí, yo ya creé mis funciones, obviamente yo ya hice pruebas, etcétera Aquí por ejemplo, yo
+ya creé una que se llama Funciones y Page Object Model para generar las pruebas.
+Entonces aquí lo que yo voy a crear es un nuevo archivo y aquí por ejemplo le voy a poner funciones
+guión bajo curso son decir JS Ese es mi archivo en donde yo voy a crear mi mi base de toda esta estructura.
+Esta base tiene que tener como tal las funciones que ahorita vamos a ir viendo.
+Primero voy a cargar los de las funciones de test, spec, etcétera que son funciones de play right
+y nosotros también de una vez vamos a utilizar la función de tiempo que me va a servir a poner un sleep.
+Hasta ahorita todavía no encuentro una función más adhoc que ya venga con el setup mal y que realmente
+me de esas pausas que yo necesito.
+Por eso la pongo hasta acá arriba.
+Luego siguiendo la documentación o como nos está diciendo como tal la documentación, nosotros lo que
+tendríamos que hacer pues es ir poniendo como tal ir haciendo nuestro constructor y este constructor
+bueno, nosotros lo vamos a poner con la palabra export y este export nos va a decir que nosotros vamos
+a poder exportar todas estas funciones.
+Yo estas funciones le voy a poner como tal funciones J que es funciones JavaScript y genero la clase,
+sale la clase, le puedes poner el nombre que tú quieras.
+Esto no hay ninguna regla como tal.
+Vale, entonces todo lo que voy a poner aquí a Export perdón quiere decir que yo voy a exportar una
+función o una clase que se llama FJ, Vale, y nosotros ya la vamos a poder utilizar de acuerdo a nuestras
+necesidades.
+Luego de ahí tenemos que generar una parte que es un constructor constructor, es decir, inicializar
+todo nuestro proyecto se inicializa con la palabra page y nosotros vamos a donde estoy sacando toda
+esta información.
+No la estoy adivinando ni mucho menos.
+Si se dan cuenta, aquí está Export Class creó la clase y luego genera un constructor.
+Todo lo voy haciendo de acuerdo a la documentación.
+No estoy inventando nada, ni ahora sí que ni ni sacando el hilo negro de nada no?
+Y nos dice que para poder inicializarlo pues generemos nuestro page para poder utilizar como tal la
+page o las páginas en nuestro lenguaje o en nuestra sintaxis.
+Ahí está.
+Entonces yo ya tengo inicializado mi página, que la voy a estar utilizando en todos lados.
+Esta sección lo voy a utilizar muchísimo.
+El This page va a ser mi base de toda mi construcción.
+Por ejemplo, nosotros ya a partir de aquí ya podemos crear nuestras.
+Empezar a crear nuestras funciones de manera sincrónica.
+Nosotros vamos a decir oye, sabes que vas a tener unas esperas, tú vas a esperar estos elementos de
+manera dinámica.
+Entonces yo por ejemplo, yo creo una función, vamos a ponerle por ejemplo la primera función, le
+voy a poner Open y qué voy a hacer?
+Voy a hacer un ejercicio para poder ir consumiendo esta página que es una página mía, que ustedes ahorita
+la van a tener de prueba.
+Check box, que es lo único que hice fue aquí y me fui a prueba de checkbox.
+Es mi sitio oficial y vamos a hacer la prueba para estos campos y todo lo que está aquí.
+Entonces yo voy a utilizar este modelo y le voy a decir ok, quiero que te vayas a esa página.
+Entonces yo aquí como tal en ya la función de Open, yo ya pondría Page punto goto.
+Ahí está.
+Perdón.
+Paige.
+Punto Goto.
+Y aquí.
+Yo ya pondré a la página donde yo me quiero ir.
+Que en este caso es esta página que está aquí.
+Vale, digo, ahorita la vamos a poner como fija, no?
+Ahorita vamos a crear otra función que también nos va a servir para eso y ahí está.
+Y con eso yo ya podría tener esa función lista.
+Mi primer función también voy a crear otra función de entrada que se va a llamar tiempo.
+Y esta función de tiempo sí va a esperar un argumento, es decir, le voy a pasar un valor y que espere
+ese valor.
+Ahora, qué es lo que le voy a pasar aquí como tal a la función de tiempo le voy a decir espérame y
+pásame el sleep que está aquí arriba.
+Este que está aquí vale el sleep y pásale un tiempo.
+Cuál?
+El que sea dinámicamente aquí como tal.
+No le estoy diciendo.
+Acuérdense si ustedes tienen alguna duda de esto.
+Hay una sección que se llama Bases de JavaScript y ahí van a ver cómo creé todo esto de las funciones,
+cómo pasar un constructor, etcétera Ahí lo pueden ver.
+Como todo esto es muy fácil de entender, la realidad es que lo único que estoy creando es una función
+y que está esperando un tiempo El que yo le ponga ahorita y esta de Open no está, no está esperando
+ningún argumento.
+Con estas dos funciones yo ya podría empezar a avanzar mi proyecto.
+Ahora, como le estoy diciendo que voy a utilizar esto gracias a esta palabra export sale, ahí está.
+Bueno, vamos a crear ahora sí nuestro test.
+Yo por ejemplo le puse po uno, hasta le voy a crear Pou dos punto y aquí no se les olvide que es de
+tipo spec.
+JS sale y ahí está.
+Veis?
+Ahí está ahora este spot como tal, Fíjense lo que va a necesitar y aquí viene la base.
+Obviamente necesitamos pasarle, es más, lo voy a dividir.
+Ahí está.
+Vean, hasta aquí no he utilizado todas mis funciones como tal y como le digo que voy a utilizar todo
+lo que está acá, de este lado de estas funciones, las voy a utilizar en mi, en mi sistema o en cualquier
+página.
+Es muy sencillo, pongo la palabra constante y creo un elemento.
+En este caso le estoy diciendo que voy a mandar a llamar de la clase o de lo que está exportando la
+clase FJ Funciones JavaScript.
+Ustedes le pueden poner el nombre que quieran, no es a fuerzas que yo diga require, require o requiere.
+Y aquí viene la magia de donde yo lo estoy jalando.
+Bueno entonces yo le tengo que decir lo requiero de mis funciones curso, ahí está, sale.
+Y con esta simple línea de código yo ya voy a poder utilizar todos estos elementos como lo utilizo.
+Bueno, vamos a verlo, vamos a empezar, creamos nuestro primer test y a este campo le voy a poner
+Demo Page Object Model.
+Sale y hacemos lo de siempre.
+Ponemos el método que va a ser un método asincrónico y que nosotros vamos a utilizar como tal.
+El argumento page, que es este que le vamos a pasar aquí this page, ahí está.
+Y que esto va a ser de manera con una función de flecha, va a ser de manera asincrónica.
+Sale entonces ahí está, ya estamos.
+Esto no tiene nada de ciencia.
+Hemos estado haciendo esto siempre.
+Vamos a pasarle empezar a pasar valores aquí para nuestro sistema.
+Ahora, cómo le digo oye, sabes que yo ya tengo una serie de funciones acá, van a ver, vamos a tener
+unas, no sé, 30, 40 funciones ya listas para nosotros pasarlas acá directamente y ya no está repitiendo
+código.
+Por ejemplo, como le digo que ya voy a necesitar esas funciones?
+Bueno, yo es muy sencillo, le digo, sabes que creamos una constante que se llama F de función.
+Ustedes le pueden poner como quieran mi función, Este ejercicio, este funciones mágicas, no sé lo
+que ustedes quieran.
+Y aquí le dices que es del nuevo De qué tipo?
+Pues es del tipo funciones F, J Perfecto y le pasamos el parámetro más importante, en este caso el
+page que está aquí.
+Entonces quiere decir que nosotros ya vamos a estar utilizando todas estas funciones de tipo F J que
+estén aquí en esta clase.
+Con esto yo ya le dije sabes qué?
+Ahora sí ya las voy a empezar a utilizar.
+Cómo lo hago?
+Muy sencillo.
+Por ejemplo, yo quiero utilizar la primer función que es Open, que ya trae la ruta que yo necesito.
+Perfecto, entonces no se les olvide que como estamos utilizando método asincrónico, pues no necesitamos
+el white.
+Y fíjense que cuando yo presiono la tecla F o de que o la palabra que yo haya puesto aquí F punto y
+ya me aparecen Open page y tiempo, que son las funciones que yo ya tengo.
+Si yo escribo Open con esto, yo ya mandé a llamar la línea que está aquí o las 5000 líneas que tenga
+con una sola línea que está aquí sale.
+De eso se trata.
+Van a ir viendo como vamos a ir mejorando.
+Uno poco a poco nuestras funciones.
+Entonces, qué le estoy diciendo aquí?
+Sabes qué?
+Ábreme la página y para, por ejemplo, nosotros decirle quiero una pausa, hago lo mismo.
+Entonces le digo Ah, wait f, punto tiempo y vean como cuando abro los paréntesis me manda aquí, Me
+dice oye, tu función tiempo está esperando algo, una, una variable o algo de tiempo.
+Ah, bueno, pues voy a ponerle 4000 para que sean cuatro segundos.
+Si todo lo que hice es correcto, ya habré pasado mi page Object model o mi modelo de paginación o de
+margen de de objetos.
+Ya lo estoy utilizando y esto me va a cortar cientos de líneas de código para mis pruebas.
+Vamos a ver si esto es cierto.
+Yo ya tengo aquí mi primero, entonces guardo, estoy en la carpeta curso y vean, yo aquí ya estaba
+haciendo mis pruebas, entonces lo que voy a hacer es Page Object Model, vamos a ver si me da.
+Le pongo aquí dos punto spec,
+punto expect, punto JS.
+Si todo esto está funcionando de manera correcta, ya debe de jalar.
+Le voy a dar enter.
+Y ahí está.
+Ya dejarlo perfecto.
+Si no me manda ningún error, me manda nada más que el reporte.
+Está hecho de manera correcta.
+Quiere decir que no tengo ningún error?
+Qué pasaría?
+Qué pasaría si yo, por ejemplo aquí una función vamos a ponerle, por ejemplo, tiempos.
+Esta función no existe, pero como tal yo la estoy mandando a llamar.
+Vamos a ver qué pasa.
+Ahí empieza a correr.
+Ya vimos que.
+Y me manda el error y me manda, Me dice oye, sabes que tienes el reporte dinámico y me dice que aquí
+esta función como tal no la agarra.
+Y vean de acuerdo a todo lo que yo configuré en la sección pasada, ya me manda el screenshot, incluso
+me manda el trace, me manda todo.
+Si ustedes tienen duda de por qué ya está todo configurado, el ancho de la pantalla y todo lo que ya
+hicimos, vean el modelo, la sección pasada que fue la configuración o lo que es el archivo config.
+Y ahí ya viene toda la explicación de por qué está agarrando el ancho, el alto, todo ya como debe
+de ser.
+Sale eso ya lo expliqué en el video pasado.
+Entonces yo para que esto jale de manera correcta, pues yo le pongo la palabra bien tiempo, cierro
+mi bloque de le doy aquí vuelvo a cargar y con esto no me debería de dar ningún problema.
+Ahí está.
+Espera cuatro segundos y listo.
+Por ejemplo, yo ahora yo necesito una función o algo que me haga que me pueda bajar un poquito, que
+haga un scroll de acuerdo a lo que encontré y investigué.
+Bueno, yo encontré esta solución.
+Vamos a ver, por ejemplo, yo aquí.
+Encontré una solución que dice scroll.
+Yo voy a crear una función que se llama Scroll.
+Le voy a pasar dos valores, tres valores y aquí quiero dejarles algo bien en claro.
+Este tercer valor, yo incluso ya le estoy poniendo un un tiempo en específico.
+En este caso lo estoy pasando tres segundos y ahorita van a ver para qué, Para irlo mejorando.
+Qué quiere decir esto?
+Que pase lo que pase, él ya tiene 300/1000 de segundo en tiempo como tal.
+Si yo aquí le pongo un minuto por default o un segundo, perdón, el pase lo que pase, se va a esperar
+un segundo.
+Cómo hago eso?
+Bueno, pues de entrada muy sencillo.
+Pongo mi función de tiempo.
+Wait.
+Y aquí le paso que voy a mandar a llamar a mi variable tiempo.
+Quiere decir que pase lo que pase, él se va a esperar un segundo por esta función, haga lo que haga,
+sale y ahorita vamos a ver cómo podemos cambiar esto.
+Ahora ya tengo la función de scroll y le digo oye, sabes qué?
+Necesito que me generes ahora sí de la página This page, punto mouse.
+Y aquí encontré, les vuelvo a repetir, uno que se llama Well.
+Y este mouse fue lo que está esperando es X Y quiere decir.
+Sabes qué?
+Recorrete en las coordenadas X y Y de la página.
+Vamos a ver si esto funciona como yo estoy esperando.
+Fíjense, le estoy pasando dos argumentos en la en el argumento x y y para las coordenadas en x y en
+y y por default él ya toma el tiempo y este tiempo que va a ser, pues se va a esperar, sale.
+Vamos a ver si esto funciona.
+Entonces yo le puedo decir sabes qué?
+Abre el navegador y después te paso mi función de scroll y me dice que él está esperando 223 posibles.
+Una Fíjense, aquí me dice estoy esperando X y y y la de tiempo con este signo está diciendo que es
+es este.
+Cómo se dice?
+No es obligatoria, es opcional, porque aquí ya está esperando un número que ya está por default.
+Entonces yo podría hacer lo siguiente Quiero que te muevas en x0, que te bajes 500 y no le voy a pasar
+tiempo y van a ver que se va a tardar un segundo y después va a bajar y se va a esperar ahí.
+Vamos a ver si esto funciona como yo quiero.
+Mmm.
+Ahí está.
+Vean.
+Perfecto.
+Qué pasaría si yo a esta función del tiempo, que es opcional, que también ya tiene un tiempo por default,
+le digo no sabes qué?
+No quiero que te esperes ahí un segundo, quiero que te esperes siete segundos serían 7000.
+Sale, Vamos a ver.
+Ahí está.
+Y vean como ahora ya tardo mucho más, pero al final está haciendo lo que yo quiero que se tarde, que
+haga el scroll y que se baje entonces.
+De entrada ya tenemos dos funciones, tres funciones listas para nuestro trabajo.
+Vamos a seguir.
+Le repetía que este curso voy a tratar de ser mucho más directo, mucho más rápido, no hacer tantos
+vídeos, pero ir a lo que yo necesito.
+Por ejemplo, algo que esta función de Open está padre pero como que no me deja ver una no me deja ver
+y la otra pues yo voy.
+Tendría que estar cambiando por cada uno de mis open esta función y a lo mejor yo necesito ir a otra,
+a otra página.
+Como tal esto no se ve bien.
+O sea, bueno, vamos a dejarlo como tal, pero lo ideal es que yo mejor pasara una, una con argumentos.
+Entonces voy a hacer una función que se llame open URL y que como tal esté esperando una URL, una ruta.
+Entonces esto sería igual a esto.
+Control C
+Pongo aquí la wait, pero en lugar de pasarle una ruta como tal, pues le digo que voy a esperar una
+URL y listo.
+Entonces lo que yo tendría que hacer para el siguiente ejemplo para para que se vea más profesional,
+en lugar de llamar a Open, le digo sabes qué?
+Manda a llamar a Open URL y pásale esta URL.
+Esta es a la URL que yo realmente quiero ir y podríamos mejorar la función de tiempo o mejorar esta.
+Si yo le pusiera un tiempo por default, por ejemplo, a mí se me ocurre ponerle un tiempo igual de
+un segundo y hacerle una pausa.
+Con esto ya mejoramos nuestra función.
+Entonces, pase lo que pase, también le voy a dejar un segundo o también yo ya aquí le podría poner
+bueno, espérame a que a que cargue la url por tres segundos.
+Vamos a ver.
+Ahí está.
+Entonces tres más cuatro del final.
+Me debería de dar siete segundos.
+Perfecto.
+Entonces todo está funcionando de manera correcta.
+Aquí 1000 se me hace mucho.
+Vamos a dejarle medio segundo y acá también medio, medio segundo
+para no estar cambiando como tal.
+Estas, estas variables como tal.
+Vamos a ver si podemos construir aquí adentro alguna variable o acá afuera.
+Vamos a ver si podemos construir una variable global, por ejemplo, poner una constante que se llame
+tiempo, como es la que estaba, le estábamos pasando aquí, pero vamos a ponerle t tie el tiempo y
+vamos a ponerle que sea 500/1000 de segundo y entonces ya la puedo mandar a llamar aquí para no estar
+repitiendo qué quiere decir esto?
+Que yo con que cambie este de acá arriba todas las que tengan TIE va a cambiar el tiempo automáticamente.
+Vamos a comprobarlo aquí por ejemplo, ya nada más le voy a poner un segundo y esta de tiem lo voy a
+dejar en cinco segundos.
+Quiere decir que se va a tardar cinco segundos para abrir y cinco segundos para hacer el scroll.
+Vamos a ver si esto funciona como yo lo estoy esperando.
+Cinco segundos.
+Perfecto, otros cinco segundos perfecto.
+Y así yo ya mi página.
+Si yo necesito cambiar los tiempos de todo, pues con qué cambia este de acá arriba?
+Me va a cambiar en todo.
+Entonces aquí yo por lo regular voy a dejar 500/100 de segundo, es decir medio segundo para poder continuar.
+Y esta.
+Perfecto.
+Perfecto.
+Ahí está más el minuto.
+Bueno, el segundo que está aquí.
+Perfecto.
+Todo hasta ahorita ha salido de manera correcta.
+Ya tengo mi función open, mi función open URL, mi función tiempo y mi función scroll.
+Muy bien, vamos a continuar en el siguiente vídeo que ya llevamos casi 20 minutos y vamos a hacer el
+ya todo este ejercicio completo con nuestras funciones y vamos a ir creando funciones sale.
+Espero que les esté gustando el curso.
+Fue un video largo, pero espero que haya quedado claro toda la potencia que tiene esto.
+Cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+17. POM DOS
+Bueno, pues vamos a continuar entonces con el curso.
+Qué es lo que voy a hacer?
+Le estoy diciendo.
+Sabes qué?
+Ya creamos los Page Object Model.
+Estoy creando mis propias funciones.
+Ahora voy a hacer una, por ejemplo, para poner los textos normales.
+Vale.
+Entonces qué es lo que necesito?
+Bueno, tener una función que me seleccione el elemento que me selecciona, el XPath, el ID o algún
+elemento.
+Podríamos utilizar funciones para selección de XPath por ID.
+Por CSS podríamos hacer todas las que quisiéramos.
+Yo en lo particular.
+Pues yo nada más.
+La realidad es que siempre trabajo con los XPath.
+Para mí se me hacen una excelente herramienta y cumplen con mis requisitos casi en el 99% de mis frameworks.
+Entonces le digo o de los frameworks que yo manejo, entonces sabes que yo le voy a poner a mi función
+que se llame texto.
+Mi texto va a necesitar un selector, va a necesitar un valor Val y va a necesitar su función de tiempo
+por si quiero poner que va a mandar a tiempo sale por default.
+Entonces como tal, qué es lo que tengo que hacer?
+Bueno, bueno, vamos a poner como tal el await.
+Y luego de ese await.
+Bueno, aquí ya ponemos la función como tal que nosotros conocemos.
+Ojo, aquí todos los elementos que mandamos a llamar de Page, necesitamos poner la palabra this para
+poder mandar a llamar este constructor y que no nos mande error.
+Entonces le pongo Locator Locator y aquí le voy a poner el selector selector, luego pasarle el valor
+y luego pasarle el tiempo que ya venga por default sale.
+Esto es lo que yo ya necesito para escribir una función de texto.
+Así de sencillo.
+Entonces, vamos a ver, abre la página, dale scroll y luego sabes que vamos a llamar a nuestra función
+F punto texto y vamos a ver si es cierto.
+Entonces yo estoy aquí, necesito su XPath.
+Acuérdense que esto es todos estos trucos y todo esto ya lo expliqué en la sección hay una sección que
+se llama Selectores.
+Búsquenla en la parte de abajo y ahí viene explicado los plugins, todo lo que viene aquí, cómo lo
+utilicé, cómo generar mis propios plugins, etcétera, etcétera.
+Entonces yo lo que hago lo copio listo?
+Y aquí si todo está bien, entonces punto número uno, pues le paso el selector como tal.
+Entonces le digo sabes qué?
+Te paso el XPath siguiente valor que está esperando, pues es el texto o lo que yo le quiero poner,
+yo le quiero poner Rodrigo y el tiempo por default vamos a hacer que se tardó un poquito más en esta
+ocasión que sean tres segundos.
+Vamos a ver si es cierto.
+Si todo esto me quedó bien, yo ya debería de poder escribir o ya debería de escribir Rodrigo ahí sin
+ningún problema.
+Ahí está.
+Ok.
+No alcancé a ver.
+Vamos a ver.
+Texto selector.
+No me manda ningún error.
+No alcancé a ver.
+Yo la verdad.
+El resultado.
+Vamos a ver.
+Dice que escribió Todo bien.
+Paige Mouse aparece como si no lo hubiera guardado.
+Como si no hubiera guardado este texto.
+Ya vamos a ver, vamos a darle otra vez al texto.
+Tiempo.
+Todo se ve bien.
+A ver, vamos a ver, vamos a correrlo otra vez.
+La verdad yo no alcancé.
+A ver, vamos a ver.
+No veo que esté escribiendo la función.
+Wait, wait.
+Vamos a ver.
+Page Station Locator Selector.
+Ah, ya vi porque.
+Perdón, Disculpen.
+Sorry.
+Sorry.
+Sorry.
+Aquí vienen.
+Selector, punto, fill.
+Y aquí, en el fill viene el valor.
+Disculpen.
+Sale valor.
+Y aquí el tiempo perfecto.
+Ahí está.
+No hice bien mi función, pero ya la corregí.
+Una disculpa.
+Entonces vamos a darle.
+Ahí está.
+Perfecto.
+Entonces esto quiere decir que sin ningún problema, yo ya puedo atacar las demás y sin crear nuevas
+funciones ni mucho menos.
+Entonces yo, por ejemplo, vamos a tomar este el dos, que es el 30.
+Perfecto.
+Entonces aquí, vean tres segundos y aquí yo ya le puedo dejar el de por default, copio este, pego
+este y este ya vi que es el 30, le paso el siguiente valor y aquí le pongo mi nuevo vamos a validar.
+Perfecto.
+Vamos a ver cuál es el Daily Mail.
+Es el 31.
+El del teléfono es el 32.
+Perfecto.
+Entonces estos dos.
+Otros dos.
+Este es 31.
+Este es 32.
+Cuál es el email?
+Ok, entonces aquí lo puedo poner.
+Gmail.com.
+A este le pongo un teléfono, consigue un email.
+Este es diferente.
+Este Sí, ya sé que es diferente.
+Lo copio.
+Perfecto.
+Await F.h.
+Texto de párrafo.
+Y aquí le pongo Demo dos o dir dirección uno.
+Vamos a dejarlo así y con esto vamos a validar.
+Vamos a ver hasta aquí si esto está bien, guardo.
+Perfecto.
+Vámonos con las funciones de check check debe de ser muy muy parecido el selector localizador.
+Entonces, por ejemplo, yo puedo crear una función que se llame
+clic esta como tal, nada más va a necesitar el selector Toma entonces es Locator selector y aquí en
+lugar de fill, pues es la opción de clic.
+Vamos a ver Clic sencillo, vamos a ver las funciones de tiempo para doble clic, etcétera, etcétera
+Vamos a ver si esto es cierto y lo que yo ya tendría que hacer, pues es agarrar uno.
+Por ejemplo PHP.
+Agarro el selector.
+Y aquí sería a Weighted F.
+Ahí ya me ponerla de click.
+Está esperando un selector y listo.
+Ya él ya debe de dar clic.
+Vamos a ver si es cierto.
+Y aquí si yo quisiera pasarle un tiempo, yo le podría decir que se espere un tiempo.
+Bueno, primero vamos a ver qué corre, así que no manda ningún error.
+Ahí está perfecto.
+También vamos a darle que le dé clic a el JS.
+Digo, nada más.
+Este es el tres.
+Copiamos, pegamos a White
+F, punto, click.
+Y aquí incluso vamos a verificar la del tiempo.
+Vamos a dejarle que se espere cinco segundos.
+Sale.
+Vamos a ver si es cierto.
+Nuestras funciones están jalando bien.
+Y esta.
+Si yo por ejemplo quisiera dejar o quitarle el check a uno.
+Mmm.
+Podríamos utilizar otra función que se llama un check o check?
+Yo la verdad no las utilizo, lo único que hago como tal les soy bien honesto.
+Entonces le vuelvo a dar clic a la de arriba y con eso.
+Entonces aquí, ahí está.
+Vamos a ver.
+Perfecto y que nos que nos faltaría aquí?
+Pues darle en el submit, no?
+Aquí le voy a dar.
+Si es el botón 34 no alcancé.
+A ver.
+Vamos a ver si.
+Ok, entonces le doy click.
+Await.
+F.h.
+Perdón.
+Click.
+Dale click en el botón.
+Vamos a que esto vaya un poquito más rápido.
+Vamos a ponerle 200 para que vaya un poquito más rápido.
+Dale.
+Ahí está y ya debería de darle la carga total.
+Perfecto.
+Ahí está.
+Sale en el siguiente podremos meter a lo mejor un assert y vamos a hacer una validación del título que
+salga.
+Al final sale.
+Pero eso ya lo haremos en el siguiente vídeo.
+Cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+18. POM TRES
+Ok, continuando con este curso de play, con JavaScript y con lo que es el Page Object Model y esto,
+nosotros hicimos un ejercicio o estábamos terminando este ejercicio que lo que necesitábamos era meter
+unos datos.
+Meter un email.
+Poner algún valor.
+Y nosotros lo que vamos a hacer es, por ejemplo, meter esta validación, validar este texto y también
+vamos a validar la URL.
+Pero bueno, vamos a ir haciendo primero el del texto, vale?
+Vamos a ver cómo lo hacemos.
+Entonces, cómo lo hago o cómo no es adivinanza, sino que me voy a la documentación, me voy al assertion
+acertar o validaciones y vamos a buscar dentro de la lista check disabled, empty focus Jaén contain
+text.
+Fíjense, esta me me gusta la de que contiene el texto.
+Tenemos una de valor por value tiene el valor siguiente.
+No vamos a ponernos esta de text sale y fíjense cómo viene la función USA dice crea una constante que
+sea para localizar como tal el valor o el selector.
+Luego a este selector le pasas como tal el selector que ya se ha encontrado o lo que vayas encontrado
+y luego pones en un string string el texto.
+Entonces esta para mí es la que yo necesito.
+Vamos a crearla.
+Entonces yo por ejemplo, le voy a poner sin validar texto, vale, entonces yo lo voy a pasar un selector,
+el valor que debe de tener y la función de tiempo, que ya sabemos que le vamos a pasar un tiempo por
+default.
+Entonces vamos a empezar a wait sleep para que tenga el tiempo y se retrase.
+Si yo quiero el tiempo que yo necesite y voy a pegar estos dos que yo copié de la documentación oficial,
+entonces dice que creó una variable locator aquí acuérdense que para que este this funcione y aquí le
+paso el primer argumento que sería el selector perfecto.
+Entonces con esto yo ya tengo el elemento localizado y luego le digo que contenga el valor.
+Pues vale y así de sencillo.
+Yo ya tendría esta función para validaciones de texto.
+Vamos a ver, vamos a ponerle acá await f, punto, validar texto y está esperando un localizador,
+Vamos a buscarlo entonces yo aquí tengo el ejemplo y vean aquí dice.
+Gracias por tu encuesta.
+Busco el elemento que es este que está aquí, lo selecciono y pues se lo paso.
+El selector que tienes que buscar es este.
+El valor puede contener cualquier texto que tienes que buscar es Gracias y le voy a decir que se espere
+dos segundos, vamos a ver que todo esté funcionando.
+Entonces le pongo No corro, vamos a ver nuestro ejercicio.
+Si no mandó ningún error, es que todo está bien.
+Qué pasa si yo aquí pongo, por ejemplo.
+Gracias.
+Una doble S.
+Vamos a ver.
+Ahí está.
+Aquí está.
+Mira, nos está diciendo.
+Es una String SS.
+Y esta.
+Tienes este.
+Entonces aquí es donde nos está mandando.
+Incluso nos dice el error.
+Todo lo demás está pasando perfectamente.
+Nos manda el error, el screenshot, todo perfecto.
+Entonces quiere decir que esta función está ahora sí que está funcionando de manera correcta.
+Ya tenemos la primera validación, una de texto, vamos a ver cuál otra encontramos.
+Hay una, por ejemplo, para las URLs que contiene el texto que contiene el valor tiene el título.
+Aquí esta URL y vamos a ver expect de la página aquí.
+Fíjense, le pasa el valor de la página que contenga la URL o que tenga esta parte de la URL.
+Entonces a ver, vamos a copiarla y vamos a pegarla aquí.
+Entonces vamos a poner async, Validar URL.
+El elemento que según yo está es la página, y vamos a pasarle también la función de tiempo para que
+tenga una espera.
+Y según esto, aquí nos está diciendo.
+Entonces yo aquí tendría que poner this page.
+Acuérdense que para que esta página funcione tiene que estar del constructor y aquí el valor aquí,
+entonces nos faltó valor URL como tal.
+Ahí está y aquí pasaría yo la URL no?
+Ahí está.
+Vamos a ver si esto funciona.
+Entonces.
+Paige, que está aquí.
+Paige, No sé si me la está tomando como tal.
+Bien, Está.
+Porque como tal, creo que está.
+No la está tomando porque.
+Aquí está.
+A ver, se lo voy a quitar, ya que la toma desde arriba, como el argumento y la URL me la está tomando
+con estos que están aquí, miren, si se dan cuenta entonces creo que no va a ser necesario nada más
+va a ser necesario pasarle la URL como tal.
+Vamos a ver si es cierto.
+Entonces await function, validar URL y aquí lo que yo pasaría sería como tal la URL que es esta.
+Vamos a ver.
+Ahí está.
+Guardamos un poquito más para acá.
+Ahí está.
+Si esto funciona, debería de pasarme los dos.
+Control C limpio y me tiene que hacer una doble validación.
+Si no me manda error es que todo está bien.
+Perfecto.
+Qué pasa si yo le pongo aquí una X más?
+Perfecto.
+Ahí está.
+Ahí está.
+Miren la X más.
+Perfecto.
+Está súper bien.
+Y validación de la X.
+Perfecto.
+Vamos a ver.
+Vamos a encontrar otro assert y ya después a lo mejor hacemos uno más un capítulo de puros asserts.
+Pero bueno, el título.
+Ándale, el título de la página también está padre, este lo vamos a hacer con este.
+Ok, entonces aquí podemos poner asíncrono, validar title y bueno, título aquí ya vemos que aquí es
+poner título y tiempo.
+Igual pasamos la función a wait sleep, pasamos el tiempo y pasamos lo de la validación expect.
+Aquí que acuérdense this page de esta página contiene el título y pues aquí pasaríamos la función Título
+Perfecto.
+Mmmm.
+Ok, vamos a ver entonces a Way
+Page.
+Validar título aquí.
+Si todo le tendría que pasar el título de la página como lo vemos Inspeccionar control F Le pongo title.
+Ahí está.
+Este es el título de la página.
+Ahí está.
+Y esto, Ahí está.
+Esto podríamos hacerlo de manera correcta, que abriera y que luego, luego, antes incluso de hacer
+el scroll que me valide el título, no?
+Vamos a ver si es cierto que mi primera es que si realmente estoy en el título de la página, vamos
+a ver entonces.
+LS Ahí debe de correr bien.
+Ahí está.
+Perfecto.
+Qué pasa si yo le pongo Rbn dos?
+Entonces.
+Ella se miren.
+Ya ni siquiera llegó al otro.
+Y aquí está.
+Exactamente.
+Me está mandando que el String como tal no está funcionando de manera correcta.
+Perfecto.
+Entonces aquí podemos hacer.
+Perfecto.
+Y con esto ya debería de darme.
+Perfecto, Ahí está.
+Entonces ya tenemos tres validaciones.
+Validar texto, validar URL, validar título.
+Podemos hacer más validaciones, pero bueno, ahorita creo que con estas son suficientes.
+Vamos a hacer.
+Bueno, no sé si para el siguiente video le meto unas validaciones al texto, no a los campos de texto
+que esté, que esté visible, que esté a que esté activo.
+Creo que lo voy a hacer.
+A ver ahorita vamos a ver, vamos a ver si los hago, sale.
+Pero bueno, ya vean todo lo que estamos haciendo, todas estas funciones y vean que rápido incluso
+texto, texto, texto, clic, clic, clic, clic, validar texto, validar URL para cualquiera de nosotros.
+Pues esto ya.
+Obviamente quien quiera ver nuestro código mientras no sepa pues que tenemos estas funciones, pues
+va a ser imposible que entienda este código sale.
+Pero bueno, entonces espero que les esté gustando ya con Page Object Model y vean todo lo que ya hemos
+avanzado.
+Cuídense mucho.
+Que Dios los bendiga.
+Principio del formulario
+Final del formulario
+19. POM CUATRO
+Ok, continuando con esta sección y como les decía, vamos a meter algunas validaciones más algunos
+campos, por ejemplo
+Assertion.
+Por ejemplo.
+Algunos de las validaciones que también podríamos poner es si el campo por ejemplo está vacío, también
+lo podemos poner.
+Eso me se me fue ahorita, pero aquí lo tengo ya a la vista y ahorita lo voy a poner.
+Si el campo está vacío, si el campo es visible, si el campo está habilitado, son las que vamos a
+poner.
+Incluso yo ya lo hice y se los voy a explicar qué es lo que hice aquí.
+En lugar de poner texto aquí, le puse validar texto o texto.
+Val aquí hay uno, es este.
+Fíjense lo que hice.
+Primero selecciono el contenedor, en este caso el localizador y paso la variable o el campo text.
+Qué quiere decir esto?
+Que hasta aquí me está localizando el elemento como tal y aquí le pongo dos dos validaciones.
+Miren, la primera, que el campo sea visible y la segunda que esté habilitado y la tercera que el campo
+esté vacío.
+Con esto yo ya le meto tres validaciones al campo para que pueda escribir o tiene la obligación de tener
+estos tres campos válidos.
+Y después ya que escriba sobre el campo qué quiere decir esto?
+Que yo aquí ya por ejemplo ya lo puse, tiene que pasar por esas tres validaciones para que él pueda
+poner.
+Rodrigo sale y ya después si pasan estas tres, entonces pongo la selección y paso el valor.
+Vamos a ver si es cierto, entonces lo corro.
+Si pone la palabra Rodrigo quiere decir que está cumpliendo las tres elecciones, las tres validaciones,
+ahí está y todo está funcionando de manera correcta.
+Muchas veces, créanme, se los digo por experiencia.
+Se trata que tomen un curso pues para que les ayude y les dé más potencia a sus proyectos.
+Qué pasaría?
+Qué pasaría si yo por ejemplo, pongo un campo que no está aquí, que no se encuentra, que está fallando,
+qué pasaría?
+Y me truena todas mis pruebas y todo.
+Todo está porque ese campo tiene algún error o tiene una ID que no se encuentra.
+Todo está funcionando de manera correcta, pero resulta que ese campo me está dando lata, me está dando
+lata y a mí ya me urge pasar la prueba.
+Sale, pasa créanmelo.
+Entonces muchas veces hay que buscar cómo evitar o cómo hacer para que pase todo.
+Y a lo mejor este campo es el que tengo problema sale, o a lo mejor hay otro campo que tiene un nombre
+y no me está funcionando.
+Por ejemplo, qué quiero decir con esto?
+Yo sé que el campo, el primer campo es el 29.
+Qué pasaría si yo aquí pongo y aquí le pongo campo que no se encuentra, que es este que está aquí,
+sale este campo, yo sé que no se encuentra.
+Sale en este que está aquí.
+Yo voy a decirle que el 28 no se encuentra.
+Qué pasaría si yo quiero escribir Rodrigo con esta función de textual?
+Sale.
+Vamos a ver.
+Mmm obviamente mi.
+Mis validaciones empezarían a hacer su trabajo y empezaran a decir Ok, no está habilitado, no es visible,
+no está libre.
+Y aquí está mi campo selección y aquí me dice oye el campo, ya pasaron cinco segundos para el tiempo
+que tenemos por default y el campo número 28 no está, no tiene un valor, está oculto como tal y me
+está diciendo cuáles son las.
+No está visible, no está habilitado, no está de entrada, no pasó que está visible, sale.
+Entonces ahí ya tronaría toda mi prueba y ya no me dejaría correr.
+Hay alguna manera de solucionar esto?
+Sí.
+Para eso tenemos otro.
+Bueno, yo aprendí a base de experiencia.
+Pues que yo le podía meter un try catch.
+Qué es esto?
+Con esta función de try catch, nosotros.
+Qué es lo que hacemos?
+Ponemos la opción verdadera dentro de estas llaves, el try y el catch.
+Que me cuestione el error o que me cachó un error campo con algún error.
+Yo le pongo como mensaje que me manda un error como tal del campo, pero que me siga haciendo todo lo
+demás.
+Por ejemplo, vean esta que también la puse, vamos a ponerla aquí abajo, es la misma de arriba, pero
+fíjense como lo cacha.
+Si pasa vas a hacer esto, hazme todo el try y si no nada más mándame un error, pero no frenes como
+tal.
+Mi prueba sale porque me urge pasarla, porque después lo checo.
+No sé esto, esto urge.
+Me están pidiendo en el laboratorio de o me están diciendo que este este sistema tiene que pasar sí
+o sí y por ese campito me está tronando y me está tronando y me está tronando, entonces me va a mandar
+errores.
+Fíjense como ahora este campo que no se encuentra, yo lo voy a cambiar.
+Mi función, en lugar de ponerle válida me con el la normal, validarlo con la función try catch.
+Vamos a ver qué pasa.
+Él no encuentra esa función o esa ese campo.
+Pero aún así corrió, sale, es un truquito que bueno, yo les paso y que me ha sacado de muchos apuros,
+pero aquí vean que dice campo con algún error sale aquí ya me está diciendo ok, yo de entrada te digo
+ok, la prueba pasó, pero hay un campo que tiene un error, es más, vamos a ver el reporte, vamos
+a ver qué es lo que cachan el reporte, Vean no me manda, pero aquí hay, aquí hay algo, me dice ok,
+aquí hay algo, algo está pasando.
+Pero aún así todo tu prueba alcanzó a pasar.
+Vamos a ver qué es lo que pasa.
+Hay un campo que no es visible, pero gracias al catch que le estoy poniendo, el continúa la prueba
+gracias a este pedacito.
+Ok.
+Sí, está bien.
+Haz esto.
+Y si no, mándame este error y yo ya lo detecto como tal.
+O dime cual es el campo o la o el el dato como tal que no está localizando.
+Y aquí vamos a ver si me puede tomar la variable.
+Vamos a ponerle una coma o un signo de más, como es un JavaScript, vamos a ponerle Locator.
+Sale.
+Vamos a ver si con eso me detecta como tal hasta incluso el campo que no está localizando.
+Ok, me mandó por el Locator.
+A ver, vamos a ver.
+No me lo está concatenando.
+Vamos a ver qué error me mandó.
+Locator no está definido.
+Constraint dice que no lo es, que no lo no lo como, no lo selecciona, no lo alcanza a cachar, no
+lo encuentra.
+Bueno, hubiera estado padre que me hubiera detectado, pero bueno, al final está cumpliendo su objetivo
+campo con algún error.
+No sé qué es lo que tiene, incluso imagínense que por ejemplo el segundo o el tercero, por ejemplo,
+este también que tiene un tres, está pasando bien, pero se nos olvidó ponerle un valor por X o mangas
+y ya con eso las pruebas surgen.
+Tendremos un problema y bueno, sería un dolor de cabeza.
+Entonces vamos a ver qué pasa si yo ya lo pongo.
+Ok, vean como el apellido no lo puso, pero aún así está pasando campo con algún error.
+Ahí está Demo Pou the Open Last.
+Todo está pasando y ni siquiera me manda un error porque el try me dice ok, si está el elemento visible,
+si está sale, le pasa un valor, el valor es nulo, no tiene nada, pero aún así me lo me lo está ejecutando.
+Vamos incluso a quitar el segundo parámetro.
+Vamos a ver qué pasa.
+Vamos a ir un poquito más a un extremo más.
+Vamos a ver si me manda dos errores.
+Ahí está perfecto, Ahí están los dos errores.
+Campo con algún error ya es decir, ya dentro de mi, de mi ejercicio, yo ya tengo dos errores, algo
+está pasando que no lo sé, pero bueno, vamos a ver aquí ya, ya en el campo me dice que el primer
+elemento no está visible y en el segundo campo vean la función.
+Me está diciendo que no lo estoy pasando un valor perfecto, pero aún así él está cumpliendo con su
+objetivo.
+Me está mandando que la prueba está ok.
+Entonces con esto les vamos metiendo más validaciones, vamos siendo más profesionales en nuestro trabajo
+e incluso ya aprendimos a solucionar problemas que son reales, muy reales en nuestros ejercicios,
+vale?
+Entonces con esto nosotros podremos validar y en el siguiente ejercicio voy a ver si puedo hacer un
+ejemplo en donde vamos a meter una validación, por ejemplo del título Validar URL y que sea de manera
+suave sale que incluso con que no se cumpla y nosotros ya podríamos corregirlo o dejarla que pase,
+sale.
+Espero que les esté gustando el curso, cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+20. POM CINCO
+Mmm.
+Ok, continuando con este curso de JavaScript, como les dije, ya tenemos las validaciones validaciones
+visibles en empty con try catch.
+Qué pasa?
+De alguna manera habrá alguna validación que como tal me frene la prueba o que pueda decir sabes qué?
+Pásame esa validación y ya sé que está mal, pero márcame lo pero déjame correr la prueba.
+Entonces a qué me refiero?
+Miren, por ejemplo,
+yo tengo esta URL, vamos a cambiarla de lugar.
+Con esto yo obligo a que luego luego entre a esta validación sale.
+Después de validar el título, por ejemplo que me valide la URL.
+Vamos a ver qué pasa si yo lo corro así.
+Valida la URL y ya, ya la puse como una URL que no es válida.
+Le puse check dos.
+Vean la prueba como tal.
+No va a pasar.
+Sale.
+Él me manda un error.
+Me dice Oye, sabes que yo estoy esperando un cheque y tú me estás poniendo un cheque.
+Dos.
+Hay un error y no te dejo pasar la prueba.
+Ahí está.
+Vean como se queda curso URL y de ahí ya no me deja pasar.
+Ya termina el hook y fin de toda la prueba.
+No me dejó correr la prueba.
+Habrá alguna manera de pasar esto?
+Sí, Si hay una manera de dejarlo pasar y se le prueba, se le llama validación ligera.
+Sale.
+Cómo se hace esto?
+Bueno, yo aquí puse validar URL y validar URL ligero.
+Cuál es la única diferencia?
+La única diferencia?
+Estoy pasando el tiempo, la URL, todo igualito.
+Es lo mismo si se dan cuenta aquí por ejemplo, ni siquiera estoy metiendo el link de tiempo.
+Vamos a meterlo.
+Perdón?
+Control Z.
+Aquí no me había dado cuenta que no había pasado el sleep.
+Yo creo que cuando lo vieron que lo estaba haciendo, ustedes han dicho se te olvidó el sleep, Pero
+bueno, ahí está validado el y aquí pues una que se llama ligera.
+Y qué es lo que estoy haciendo?
+Vean esta palabra aquí lo único que cambia, en lugar de poner expect normal pones un expect con soft
+que es una validación ligera.
+Y vean lo que pasa.
+Yo aquí, en lugar de poner una validación nueva regla normal, voy a agregar la palabra light o la
+de ligera, entonces quiere decir que me va a marcar un error, pero aún así yo tomo la validación como
+tal y me va a dejar correr mi prueba hasta donde yo tenga que llegar.
+Sale.
+Vamos a ver si esto realmente está funcionando como yo los estoy diciendo.
+Entonces corremos, vamos a ver qué pasa.
+Fíjense ahí ya tiene dos errores, tiene un campo que ni siquiera existe, tiene una validación que
+no jala y tiene la URL que tampoco es válida y vamos a ver qué pasa.
+Y aún así, mi prueba se está ejecutando.
+Se va a ejecutar.
+Ahí está.
+Pasa el tiempo de espera y aún así pasó.
+Por qué?
+Porque gracias a la validación ligera y a los try catch, vean el si me dice ok.
+De antemano te digo, tu prueba no es válida, pero si está pasando todo lo demás, entonces el campo
+o la espera que tú tienes o el problema.
+Fíjate aquí me dice el field, acá me dice que no es visible y aquí me dice que la URL no la encontró.
+Pero aún así la prueba pasó ya que es una carga de tipo soft, es una carga de tipo suave y está pasando.
+Ya vimos que si yo le pongo la validación normal, esto nunca, nunca pasaría, a menos que yo pusiera
+como tal el nombre completo.
+Qué pasa si yo le pongo el nombre dos?
+Obviamente que esto debe de pasar sin ningún problema.
+Ese error como tal no debe de de ocurrir porque se tarda, porque acuérdense que tenemos un tiempo de
+espera de cinco segundos como máximo para cada uno de los errores o campos que él no detecte o cosas
+como ese tipo.
+Ahora ya no me debería de mandar ningún error porque lo que se está ejecutando es una versión de try
+catch.
+Ahí está.
+Ya no me mandó ningún error, pero yo sé internamente que si hay algún detalle de campo con algún error
+o campo, con algún detalle, aquí ustedes le pueden poner algo que no sea tan descriptivo para que
+si alguien lo está y ustedes les urge pasarlo, pues nada más lo tengan ahí como una alerta, no?
+Alert uno, alerta dos, o sea que los cuente y vean como gracias a esta prueba metimos una validación
+ligera gracias a esta palabrita que se llama soft y con esto hacemos una carga ligera.
+De esta validación sale.
+Espero que les esté gustando el curso, cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+21. POM SEIS
+Ok.
+Continuando con este curso de playground de JavaScript, vamos a hacer un poquito algo más interesante.
+Vamos a hacer que por ejemplo, nosotros desde aquí ya podamos condicionar nuestros valores.
+Qué quiere decir esto?
+Si a mí, por ejemplo, se me ocurre o mi jefe me dice sabes qué?
+Todos los que sean Rodrigo o cuando tú pongas aquí la palabra Rodrigo, quiero que el robot automáticamente
+me ponga que el apellido es Villanueva sale y que el email es tal.
+O sea, podríamos hacer ese juego si no es Rodrigo, cualquier otro nombre cualquiera.
+Juan quiero que el apellido sea Pérez.
+Vale?
+Entonces vamos a ver si esto está funcionando en el robot, por ejemplo, qué pasa si yo aquí le pongo
+Rodrigo?
+Vamos a ver.
+Digo de entrada, pues ustedes ya ven que más o menos está condicionando, pero cómo puede hacer eso?
+Ahorita les enseño, ahí está.
+Vamos a ver, empieza el robot, pone Rodrigo y pone Villanueva.
+Perfecto, Entonces dirán bueno, pues yo no le veo nada de ciencia, pero qué pasa si ya no es Rodrigo,
+Si por ejemplo es Juan, Vamos a guardar.
+Si nos hubiéramos ido con la programación normal pondría Juan Juan Villanova.
+Pero vean cómo pone Juan Pérez.
+Entonces en el siguiente vídeo les explicaré cómo esto se logró hacer gracias a que a una función que
+hice que se llama Validar campo Sale.
+Espero que les guste, cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
+22. POM_SIETE
+Ok, pues vamos a resolverlo y vamos a.
+Voy a mostrarles cómo logré hacer todo esto, porque no nada más es este if, sino cómo obtuve el valor
+de este if y cómo lo logré sacar o cómo logré hacer esto.
+Bueno, esto es gracias a la función que creé y aquí le puse como la función, le puse valor del campo
+y el valor del campo.
+Fíjense lo que hace, toma el selector, agarras el elemento que quieres seleccionar.
+Es decir, necesito que me tomes el valor que hay en esta caja.
+Obviamente ya primero debe de haber algo escrito.
+Toma el valor de la caja y nada más.
+Le pasé el tiempo.
+Cómo le digo que tome el valor?
+Vean constante value aquí.
+Yo le puse una constante que se llama valor o value y le digo que del selector input toma el valor,
+tómame el valor que tenga ese campo como tal sale del input, toma el valor, le puso una letra y fíjense,
+lo que estoy haciendo aquí es poner un valor como tal o ponerle que me regrese ese valor cuando yo lo
+mande a llamar.
+Necesito tener ese valor.
+Entonces fíjense lo que hice cuando yo aquí escribo, por ejemplo Juan, Ericka, Pedro, por ejemplo,
+voy a escribir Ericka.
+Yo.
+Cómo puedo comprobar que aquí realmente este campo tiene el valor de Erika?
+Bueno, pues para eso mando a llamar a mi función valor del campo y la pongo en una variable y esa variable
+aquí está.
+Cómo lo puedo probar?
+Pues bueno, pongo poner console.log y mando a llamar ese valor como tal antes de que haga cualquier
+cosa aquí ya va a funcionar, va a pasar.
+Fíjense, aquí ya me pone el valor, Vámonos paso por paso.
+Ahí está.
+Y vean como aquí me captura el valor de Eric.
+Ahí está.
+Entonces yo ya con ese valor como tal, yo ya puedo condicionarlo.
+Le puedo decir Sabes que si el valor es igual a Rodrigo, entonces en el siguiente campo, que es el
+número 30, escribe Villanueva.
+Si no es Rodrigo, entonces tú podrías escribir tal.
+Por ejemplo, en el caso de Erika, también pude haber hecho lo que sigue.
+Entonces pude haber puesto un elsif.
+Déjenme recuerdo antes de que se me vaya, no voy a escribir una tontería else else if javascript que
+ahorita se me fue un poquito, pero a ver, vamos a vamos a checarlo rápidamente, sentencia Else.
+Y ahí está, es este.
+Entonces else if quiere decir que yo ya puedo meter otra, otra constante o otra condicionante.
+Bueno, vamos a hacerlo entonces yo aquí pongo el shift y le pongo si el valor es Rodrigo pones Villanueva.
+Si el valor es Erika, entonces en el siguiente campo que sea apellido pones por ejemplo pass sale y
+así me la puedo llevar, sale entonces yo puedo poner otro valor aquí, vamos a ponerlo elsif y si es
+por ejemplo no sé Juan, aquí me pones Pérez y en caso de que ninguno de estos se cumpla, else entonces
+ponme en este en este mismo campo, ponme que es Chaves.
+Vean ya como ya lo lo llevamos más a fondo todavía.
+Si es Rodrigo, me pones de apellido Villanueva, Si es Erika me pones de apellido Paz.
+Si es Juan me pones Pérez y si no es ni ni Rodrigo, ni Erika, ni Juan, me pones.
+Chávez sale.
+Vamos a ver si es cierto que esto funciona.
+Entonces yo ahorita por ejemplo en la caja de texto dice Erika, entonces me tiene que poner aquí pass
+sale como tal.
+Y recuerden que estas funciones de tiempo bueno, tienen una espera, vamos a ponerle aquí que nos ponga
+una 1.000.ª de segundo, perdón, un segundo para que nos dé tiempo de ver el resultado sale.
+En cualquiera de los tres casos.
+Ahí está.
+Vamos a ver.
+Entonces el robot empieza.
+Vean como ya estamos haciendo que el robot sea más inteligente.
+Si es Erica, Ya puso paz.
+Perfecto.
+Vamos a ver si ahora el robot es.
+Vamos a ver qué pasa si es Rodrigo con mayúscula y Rodrigo sin minúscula.
+Vamos a ver qué nos da.
+Sale.
+Yo?
+Bueno, casi estoy seguro.
+Ya sé que me va a dar, pero vamos a escalarlo.
+Vamos a ver.
+Rodrigo.
+Ahí está.
+No fue igualito que Rodrigo con mayúscula.
+Entonces él tomó la decisión de que es Chávez.
+Entonces si ya yo pongo la R mayúscula, entonces él sí ya va a tomar.
+Esta validación.
+Rodrigo Perfecto Villanueva.
+Ahí está.
+Y pues, por último, nada más me tocaría.
+Cuál era el otro?
+Erika?
+Juan No!
+Vamos a ver si yo aquí pongo Juan.
+Pues me tendría que poner Pérez, no?
+Juan con mayúscula.
+Perfecto.
+La primera mayúscula.
+Perfecto.
+Todo está corriendo.
+Mi robot está siendo ya un poco más inteligente.
+Y vamos a poner aquí a Miguel.
+Vamos a poner de nombre Miguel.
+Vale.
+Ahí está perfecto.
+Aquí para perfeccionar y no estar aquí, cambiando uno por uno los tiempos, pues nadie me limita.
+Aquí pone por ejemplo una variable que se llame TP de tiempo de prueba, por ejemplo.
+Y aquí pues yo ya le pongo mil no?
+Y entonces fíjense lo que haría, pues cambiaría todos estos que están aquí con mil.
+Y pongo mi variable TP sale.
+Acuérdense que ustedes tienen que buscar la manera de hacer que sus pruebas sean, pues ahora sí, que
+sean más prácticas.
+TP No me lo está tomando.
+A ver, vamos a ver si lo pongo como una constante perdón, ahí está.
+Ya con eso incluso vamos a ponerle a ver dos, dos segundos debería de tardarse.
+Ahorita me va a poner Miguel, debe de poner Chávez, no?
+Ok, en cualquiera de los tres o cuatro casos él ya debe de saber qué hacer.
+Miguel Chávez.
+Perfecto.
+Y hasta los dos segundos.
+Perfecto, Ahí está.
+Digo, esto es nada más por convención.
+Vamos a ponerle 300/1000 de segundo.
+Y ahí está mi robot.
+Está funcionando de manera correcta.
+Vale, entonces espero que les esté gustando el curso.
+Estamos viendo muchas, muchas situaciones que yo vivo día a día, problemas con los que yo me enfrento
+y como lo soluciono.
+Cuando alguien me pide oye, si sale esto, dame esto, si sale aquello que haga esto, etcétera, etcétera,
+etcétera.
+Espero que les esté gustando el curso, cuídense mucho y que Dios los bendiga.
+Principio del formulario
+Final del formulario
