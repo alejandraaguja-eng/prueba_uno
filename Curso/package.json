@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "test": "playwright test",
+    "test:ci": "playwright test --config=playwright.ci.config.js",
+    "check": "node --check playwright.config.js && node --check playwright.ci.config.js && node --check tests/ci-smoke.spec.js",
     "test1": "npx playwright test Parametros.spec.js",
     "test:demo": "playwright test Demo2.spec.js",
     "test:input": "playwright test Input2.spec.js",

@@ -425,6 +425,43 @@ Resolve-DnsName testingqarvn.com.es
 npx.cmd playwright test Parametros.spec.js -g "Data Excel" --workers=1 --retries=0
 ```
 
+## Continuacion: integracion de GitHub con Jenkins
+
+**Objetivo:** dejar el repositorio preparado para que Jenkins ejecute una validacion automatica y reproducible.
+
+**Archivos creados:**
+- `Jenkinsfile`
+- `Curso/playwright.ci.config.js`
+- `Curso/tests/ci-smoke.spec.js`
+
+**Archivos modificados:**
+- `.gitignore`
+- `README.md`
+- `Curso/package.json`
+
+**Configuracion realizada:**
+- Pipeline declarativo para un agente Jenkins de Windows.
+- Uso de la herramienta NodeJS llamada `NODE_JS`.
+- Instalacion reproducible mediante `npm ci`.
+- Instalacion automatica de Chromium.
+- Validacion de sintaxis antes de ejecutar las pruebas.
+- Publicacion de resultados JUnit y artefactos del reporte Playwright.
+- Configuracion CI separada para no alterar los ejercicios originales del curso.
+- Prueba local sin dependencias externas para comprobar Playwright, Chromium y Jenkins.
+
+**Verificacion realizada:**
+- Jenkins responde correctamente en `http://localhost:8080/login`.
+- Java 21 esta instalado y disponible.
+- La validacion de sintaxis finaliza correctamente.
+- La prueba CI finaliza con `1 passed`.
+
+**Siguiente paso manual en Jenkins:**
+- Editar el Job `playwright_javascrip_uno`.
+- Seleccionar `Pipeline script from SCM` y Git.
+- Usar el repositorio `https://github.com/alejandraaguja-eng/prueba_uno.git`.
+- Seleccionar la rama `*/main` y la ruta `Jenkinsfile`.
+- Subir primero estos cambios a GitHub y ejecutar `Build Now`.
+
 ## Video procesado: Video 8.mkv
 
 **Tema:** Preparacion de entorno para integracion continua con Jenkins, NodeJS, Git y GitHub.

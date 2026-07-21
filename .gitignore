@@ -1,2 +1,14 @@
-
-
+node_modules/
+**/node_modules/
+playwright-report/
+**/playwright-report/
+test-results/
+**/test-results/
+blob-report/
+**/blob-report/
+.env
+**/.env
+*.log
+.course-video-frames/
+.manual_work/
+output/
